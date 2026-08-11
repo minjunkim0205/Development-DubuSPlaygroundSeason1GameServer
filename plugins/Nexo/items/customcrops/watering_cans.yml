@@ -1,0 +1,43 @@
+watering_can_1:
+  # itemname: "<white>铜制浇水壶"
+  itemname: "<white>Copper Watering Can"
+  lore:
+  - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
+  - "Right-click on water to refill the watering can."
+  # - "右键水方块以装填浇水壶"
+  material: GOLDEN_HORSE_ARMOR
+  Pack:
+    model: customcrops:item/wateringcan/watering_can_1
+
+watering_can_2:
+  # itemname: "<white>钢制浇水壶"
+  itemname: "<white>Steel Watering Can"
+  lore:
+  - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
+  - "Right-click on water to refill the watering can."
+  # - "右键水方块以装填浇水壶"
+  material: GOLDEN_HORSE_ARMOR
+  Pack:
+    model: customcrops:item/wateringcan/watering_can_2
+
+watering_can_3:
+  # itemname: "<white>黄金浇水壶"
+  itemname: "<white>Golden Watering Can"
+  lore:
+  - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
+  - "Right-click on water to refill the watering can."
+  # - "右键水方块以装填浇水壶"
+  material: GOLDEN_HORSE_ARMOR
+  Pack:
+    model: customcrops:item/wateringcan/watering_can_3
+
+watering_can_4:
+  # itemname: "<white>铱制浇水壶"
+  itemname: "<white>Iridium Watering Can"
+  lore:
+  - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
+  - "Right-click on water to refill the watering can."
+  # - "右键水方块以装填浇水壶"
+  material: GOLDEN_HORSE_ARMOR
+  Pack:
+    model: customcrops:item/wateringcan/watering_can_4

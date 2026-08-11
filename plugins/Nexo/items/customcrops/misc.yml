@@ -1,0 +1,184 @@
+dry_pot_1:
+  template: block_sound/wood
+  # itemname: "<white>种植盆"
+  itemname: "<white>Pot"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/dry_pot_1
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 1
+      model: customcrops:block/misc/dry_pot_1
+      hardness: 2
+      drop:
+        silktouch: false
+        best_tool: AXE
+wet_pot_1:
+  template: block_sound/wood
+  # itemname: "<white>种植盆（湿润）"
+  itemname: "<white>Wet Pot"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/wet_pot_1
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 2
+      model: customcrops:block/misc/wet_pot_1
+      hardness: 2
+      drop:
+        silktouch: false
+        best_tool: AXE
+        loots:
+          - nexo_item: dry_pot
+dry_pot_2:          
+  template: block_sound/wood
+  # itemname: "<white>远古盆"
+  itemname: "<white>Nether Pot"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/dry_pot_2
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 3
+      model: customcrops:block/misc/dry_pot_2
+      hardness: 2
+      drop:
+        silktouch: false
+        best_tool: AXE
+wet_pot_2:
+  template: block_sound/wood
+  # itemname: "<white>远古盆（充能）"
+  itemname: "<white>Charge Nether Pot"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/wet_pot_2
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 4
+      model: customcrops:block/misc/wet_pot_2
+      hardness: 2
+      drop:
+        silktouch: false
+        best_tool: AXE
+        loots:
+          - nexo_item: dry_pot
+dry_pot_3:          
+  template: block_sound/wood
+  # itemname: "<white>终末盆"
+  itemname: "<white>End Pot"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/dry_pot_3
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 5
+      model: customcrops:block/misc/dry_pot_3
+      hardness: 2
+      drop:
+        silktouch: false
+        best_tool: AXE
+wet_pot_3:
+  template: block_sound/wood
+  # itemname: "<white>终末盆（充能）"
+  itemname: "<white>Charge End Pot"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/wet_pot_3
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 6
+      model: customcrops:block/misc/wet_pot_3
+      hardness: 2
+      drop:
+        silktouch: false
+        best_tool: AXE
+        loots:
+          - nexo_item: dry_pot
+
+crow_fly:
+  # itemname: "<white>乌鸦（飞行）"
+  itemname: "<white>Corw Fly"
+  material: PAPER
+  Pack:
+    model: customcrops:item/misc/crow_fly
+crow_stand:
+  # itemname: "<white>乌鸦（站立）"
+  itemname: "<white>Crow Stand"
+  material: PAPER
+  Pack:
+    model: customcrops:item/misc/crow_stand
+
+scarecrow:
+  # itemname: "<white>稻草人"
+  itemname: "<white>Scarecrow"
+  material: PAPER
+  Pack:
+    model: customcrops:block/misc/scarecrow
+  Mechanics:
+    furniture:
+      restricted_rotation: STRICT
+      block_sounds:
+        place_sound: block.wood.place
+        break_sound: block.wood.break
+        hit_sound: block.wood.hit
+      hitbox:
+        interactions:
+          - 0,0,0 1,2
+      drop:
+        silktouch: false
+
+soil_surveyor:
+  # itemname: "<white>土壤检测仪"
+  itemname: "<white>Soil Surveyor"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/misc/soil_surveyor
+
+greenhouse_glass:
+  template: block_sound/glass
+  # itemname: "<white>温室玻璃"
+  itemname: "<white>Greenhouse Glass"
+  material: PAPER
+  Pack:
+    parent_model: block/cube_all
+    texture: customcrops:block/misc/greenhouse_glass
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 75
+      model: greenhouse_glass
+      hardness: 0.3
+      drop:
+        silktouch: true
+        loots:
+          - minecraft_type: AIR
+            probability: 1.0
+
+water_effect:
+  # itemname: "<white>洒水效果"
+  itemname: "<white>Water Effect"
+  material: PAPER
+  Pack:
+    model: customcrops:item/sprinkler/water_effect
+
+crop_stage_death:
+  template: block_sound/crop
+  # itemname: "<white>枯萎作物"
+  itemname: "<white>Wither"
+  material: PAPER
+  Pack:
+    model: customcrops:block/crop/dead_crop
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 76
+      model: customcrops:block/crop/dead_crop
+      hardness: 0
+      drop:
+        silktouch: false

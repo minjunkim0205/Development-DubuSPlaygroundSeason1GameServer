@@ -1,0 +1,30 @@
+'-1':
+  texture: font/base/space_split
+  height: -3
+  ascent: -512
+  font: minecraft:customcrops
+  char: ꐓ
+bars_left:
+  texture: font/bars/left
+  height: 8
+  ascent: 8
+  font: minecraft:customcrops
+  char: ꐔ
+bars_full:
+  texture: font/bars/full_default
+  height: 8
+  ascent: 8
+  font: minecraft:customcrops
+  char: ꐕ
+bars_empty:
+  texture: font/bars/empty
+  height: 8
+  ascent: 8
+  font: minecraft:customcrops
+  char: ꐖ
+bars_right:
+  texture: font/bars/right
+  height: 8
+  ascent: 8
+  font: minecraft:customcrops
+  char: ꐗ

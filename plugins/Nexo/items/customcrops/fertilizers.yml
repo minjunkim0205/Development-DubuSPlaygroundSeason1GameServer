@@ -1,0 +1,94 @@
+yield_increase_1:
+  # itemname: "<white>基础增产剂"
+  itemname: "<white>Basic Yield Increasing"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/yield_increase_1
+yield_increase_2:
+  # itemname: "<white>优质增产剂"
+  itemname: "<white>Quality Yield Increasing"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/yield_increase_2
+yield_increase_3:
+  # itemname: "<white>高级增产剂"
+  itemname: "<white>Deluxe Yield Increasing"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/yield_increase_3
+
+quality_1:
+  # itemname: "<white>基础肥料"
+  itemname: "<white>Basic Fertilizer"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/quality_1
+quality_2:
+  # itemname: "<white>优质肥料"
+  itemname: "<white>Quality Fertilizer"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/quality_2
+quality_3:
+  # itemname: "<white>高级肥料"
+  itemname: "<white>Deluxe Fertilizer"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/quality_3
+
+soil_retain_1:
+  # itemname: "<white>基础保湿土壤"
+  itemname: "<white>Basic Retaining Soil"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/soil_retain_1
+soil_retain_2:
+  # itemname: "<white>优质保湿土壤"
+  itemname: "<white>Quality Retaining Soil"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/soil_retain_2
+soil_retain_3:
+  # itemname: "<white>高级保湿土壤"
+  itemname: "<white>Deluxe Retaining Soil"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/soil_retain_3
+
+speed_grow_1:
+  # itemname: "<white>生长激素"
+  itemname: "<white>Speed-Gro"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/speed_grow_1
+speed_grow_2:
+  # itemname: "<white>高级生长激素"
+  itemname: "<white>Quality Speed-Gro"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/speed_grow_2
+speed_grow_3:
+  # itemname: "<white>超级生长激素"
+  itemname: "<white>Deluxe Speed-Gro"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/speed_grow_3
+
+variation_1:
+  # itemname: "<white>初级魔法药剂"
+  itemname: "<white>Primary Magic Bottle"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/variation_1
+variation_2:
+  # itemname: "<white>中级魔法药剂"
+  itemname: "<white>Intermediate Magic Bottle"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/variation_2
+variation_3:
+  # itemname: "<white>高级魔法药剂"
+  itemname: "<white>Advanced Magic Bottle"
+  material: PAPER
+  Pack:
+    texture: customcrops:item/fertilizer/variation_3

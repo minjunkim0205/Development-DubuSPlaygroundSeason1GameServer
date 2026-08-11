@@ -1,0 +1,509 @@
+# Note: This file is made for you to manager textures and models
+# Default fish doesn't have name and lore becuase they are configurated in CustomFishing
+# To make Nexo items inherits the CustomFishing effects, read
+# https://mo-mi.gitbook.io/xiaomomi-plugins/plugin-wiki/customfishing/common-questions#q3.-how-to-use-items-blocks-from-other-plugins
+# ###########
+#   Fish   #
+# ###########
+rainbow_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/rainbow_fish
+    custom_model_data: 50100
+radioactive_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/radioactive_fish
+    custom_model_data: 50000
+tuna_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/tuna_fish
+    custom_model_data: 50001
+tuna_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/tuna_fish_silver_star
+    custom_model_data: 50002
+tuna_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/tuna_fish_golden_star
+    custom_model_data: 50003
+pike_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/pike_fish
+    custom_model_data: 50004
+pike_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/pike_fish_silver_star
+    custom_model_data: 50005
+pike_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/pike_fish_golden_star
+    custom_model_data: 50006
+gold_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/gold_fish
+    custom_model_data: 50007
+gold_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/gold_fish_silver_star
+    custom_model_data: 50008
+gold_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/gold_fish_golden_star
+    custom_model_data: 50009
+perch_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/perch_fish
+    custom_model_data: 50010
+perch_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/perch_fish_silver_star
+    custom_model_data: 50011
+perch_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/perch_fish_golden_star
+    custom_model_data: 50012
+mullet_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/mullet_fish
+    custom_model_data: 50013
+mullet_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/mullet_fish_silver_star
+    custom_model_data: 50014
+mullet_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/mullet_fish_golden_star
+    custom_model_data: 50015
+sardine_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sardine_fish
+    custom_model_data: 50016
+sardine_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sardine_fish_silver_star
+    custom_model_data: 50017
+sardine_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sardine_fish_golden_star
+    custom_model_data: 50018
+carp_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/carp_fish
+    custom_model_data: 50019
+carp_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/carp_fish_silver_star
+    custom_model_data: 50020
+carp_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/carp_fish_golden_star
+    custom_model_data: 50021
+cat_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/cat_fish
+    custom_model_data: 50022
+cat_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/cat_fish_silver_star
+    custom_model_data: 50023
+cat_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/cat_fish_golden_star
+    custom_model_data: 50024
+octopus_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/octopus_fish
+    custom_model_data: 50025
+octopus_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/octopus_fish_silver_star
+    custom_model_data: 50026
+octopus_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/octopus_fish_golden_star
+    custom_model_data: 50027
+sunfish_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sunfish_fish
+    custom_model_data: 50028
+sunfish_fish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sunfish_fish_silver_star
+    custom_model_data: 50029
+sunfish_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sunfish_fish_golden_star
+    custom_model_data: 50030
+red_snapper_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/red_snapper_fish
+    custom_model_data: 50031
+red_snapper_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/red_snapper_silver_star
+    custom_model_data: 50032
+red_snapper_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/red_snapper_fish_golden_star
+    custom_model_data: 50033
+salmon_void_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/salmon_void_fish
+    custom_model_data: 50034
+salmon_void_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/salmon_void_silver_star
+    custom_model_data: 50035
+salmon_void_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/salmon_void_fish_golden_star
+    custom_model_data: 50036
+woodskip_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/woodskip_fish
+    custom_model_data: 50037
+woodskip_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/woodskip_silver_star
+    custom_model_data: 50038
+woodskip_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/woodskip_fish_golden_star
+    custom_model_data: 50039
+sturgeon_fish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sturgeon_fish
+    custom_model_data: 50040
+sturgeon_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sturgeon_silver_star
+    custom_model_data: 50041
+sturgeon_fish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/sturgeon_fish_golden_star
+    custom_model_data: 50042
+blue_jellyfish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/blue_jellyfish
+    custom_model_data: 50043
+blue_jellyfish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/blue_jellyfish_silver_star
+    custom_model_data: 50044
+blue_jellyfish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/blue_jellyfish_golden_star
+    custom_model_data: 50045
+pink_jellyfish:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/pink_jellyfish
+    custom_model_data: 50046
+pink_jellyfish_silver_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/pink_jellyfish_silver_star
+    custom_model_data: 50047
+pink_jellyfish_golden_star:
+  material: COD
+  Pack:
+    model: customfishing:item/fish/pink_jellyfish_golden_star
+    custom_model_data: 50048
+# ###########
+#   Rod    #
+# ###########
+beginner_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 64
+  Pack:
+    model: customfishing:item/rod/beginner_rod
+    cast_model: customfishing:item/rod/beginner_rod_cast
+    custom_model_data: 50001
+  displayname: <b><#EEE9E9>Beginner's Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - '<gray> - Specially designed for those new to the art '
+  - <gray> - of fishing, the Beginner's Fishing Rod is a
+  - <gray> - novice angler's best friend.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Increase the hook time
+  - <gray> - Reduces the challenge of fishing
+silver_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 96
+  Pack:
+    model: customfishing:item/rod/silver_rod
+    cast_model: customfishing:item/rod/silver_rod_cast
+    custom_model_data: 50002
+  displayname: <b><#C0C0C0>Silver Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - Elegantly crafted with a gleaming finish, the
+  - <gray> - Silver Star Fishing Rod is the dream of every
+  - <gray> - angler seeking silver-star quality fish.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Increase the chance of getting silver star fish
+golden_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 80
+  Pack:
+    model: customfishing:item/rod/golden_rod
+    cast_model: customfishing:item/rod/golden_rod_cast
+    custom_model_data: 50003
+  displayname: <b><#FFD700>Golden Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - Glistening under the sunlight and exuding an
+  - <gray> - aura of luxury, the Golden Fishing Rod is the
+  - <gray> - epitome of high-tier angling gear.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Increase the chance of getting golden star fish
+star_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 128
+  Pack:
+    model: customfishing:item/rod/star_rod
+    cast_model: customfishing:item/rod/star_rod_cast
+    custom_model_data: 50004
+  displayname: <b><#FFFF00>Star Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - Carved from stardust and bathed in cosmic energy,
+  - <gray> - the Star Fishing Rod is a testament to the wonders
+  - <gray> - of the universe. Its endless magical reservoir ensures
+  - <gray> - that time seems to stand still, granting anglers what
+  - <gray> - feels like an eternity to perfect their catch.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - +15s Game Time
+bone_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 32
+  Pack:
+    model: customfishing:item/rod/bone_rod
+    cast_model: customfishing:item/rod/bone_rod_cast
+    custom_model_data: 50005
+  displayname: <b><#CD2626>Bone Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - Forged from the bones of age-old skeletons and
+  - <gray> - imbued with dark enchantments, the Skeleton Fishing
+  - '<gray> - Rod is not for the faint-hearted. It allows the '
+  - '<gray> - brave or the mad to fish within the scorching '
+  - <gray> - confines of lava, defying the usual limitations of
+  - <gray> - regular rods.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Fishing in lava
+  - <gray> - Sometimes skeleton would grab the hook
+magical_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 16
+  Pack:
+    model: customfishing:item/rod/magical_rod
+    cast_model: customfishing:item/rod/magical_rod_cast
+    custom_model_data: 50006
+  displayname: <b><#7B68EE>Magical Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - A product of arcane innovation, this unique
+  - <gray> - fishing rod uses enchanted books as bait.
+  - '<gray> - Its intricate reel mechanism and magical '
+  - <gray> - allure demand the exp level of its user,
+  - <gray> - consuming experience levels upon each cast.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Get an enchantment book from fishing.
+  - <gray> - Require a long time to get hooked.
+  - ''
+  - '<#CD5C5C>Requirements:'
+  - <gray> - 1x book bait
+  - <gray> - 10 exp levels
+master_rod:
+  material: FISHING_ROD
+  Mechanics:
+    durability:
+      value: 128
+  Pack:
+    model: customfishing:item/rod/master_rod
+    cast_model: customfishing:item/rod/master_rod_cast
+    custom_model_data: 50007
+  displayname: <b><#FFFF00>Master's Fishing Rod
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - Wielded only by the most skilled of anglers,
+  - <gray> - the Master's Fishing Rod represents the pinnacle
+  - '<gray> - of fishing craftsmanship. Meticulously crafted '
+  - '<gray> - for precision, it significantly reduces the '
+  - <gray> - time it takes for a fish to bite.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Reduce the hook time
+  - <gray> - Increase the challenge of fishing
+  - <gray> - Higher chance of getting quality fish
+# ###########
+#   Bait   #
+# ###########
+simple_bait:
+  material: PAPER
+  Pack:
+    model: customfishing:item/bait/simple_bait
+    custom_model_data: 50001
+  displayname: <b><#00BFFF>Simple lures
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray>Made from natural ingredients, it attracts
+  - <gray>fish in a calm and steady manner. It's the
+  - '<gray>go-to choice for those who prefer a '
+  - <gray>straightforward and reliable fishing experience.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Reduce fishing difficulty
+magnetic_bait:
+  material: PAPER
+  Pack:
+    model: customfishing:item/bait/magnetic_bait
+    custom_model_data: 50002
+  displayname: <b><red>Magn<blue>etic <gray>lures
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray>Its radiant shimmer and unique energy pulse
+  - <gray>prove irresistible to curious fish, drawing
+  - '<gray>them in with unprecedented speed. This is '
+  - <gray>not just a bait, it's a spectacle that fish
+  - <gray>can't help but investigate.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Reduce hook time
+  - <gray> - More time for fishing
+wild_bait:
+  material: PAPER
+  Pack:
+    model: customfishing:item/bait/wild_bait
+    custom_model_data: 50003
+  displayname: <b><#2E8B57>Wild lures
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - '<gray>Crafted for the fearless angler, the Wild '
+  - '<gray>Attraction Bait is an infusion of potent '
+  - <gray>natural ingredients, exuding an irresistible
+  - <gray>aroma for large aquatic beasts.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Increase fishing difficulty
+  - <gray> - Increase the size of fish caught
+delicate_hook:
+  material: SHEARS
+  Pack:
+    model: customfishing:item/hook/delicate_hook
+    custom_model_data: 50000
+  displayname: <#1E90FF>Delicate hook
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - An embodiment of craftsmanship and allure, the hook
+  - <gray> - is not your average piece of tackle. Polished to
+  - <gray> - perfection and intricately designed, it gleams in the
+  - <gray> - water, irresistibly drawing high-quality fish closer.
+  - ''
+  - '<#FFD700>Effects:'
+  - <gray> - Increase the chance of getting high quality fish
+# ###########
+#   Util   #
+# ###########
+fishfinder:
+  material: PAPER
+  Pack:
+    model: customfishing:item/util/fishfinder
+    custom_model_data: 50000
+  displayname: <#1E90FF>Fish Finder
+  lore:
+  - ''
+  - '<#7FFFD4>Desciption:'
+  - <gray> - Compact yet powerful, it scans the waters
+  - <gray> - with precision, revealing the variety of
+  - <gray> - fish species lurking below the surface.
+  - <gray> - Whether you're in uncharted territories or
+  - <gray> - familiar waters, this device ensures you're
+  - <gray> - always informed about your aquatic neighbors.
+splash_water:
+  material: PAPER
+  Pack:
+    model: customfishing:item/util/splash_water
+    custom_model_data: 49998
+splash_lava:
+  material: PAPER
+  Pack:
+    model: customfishing:item/util/splash_lava
+    custom_model_data: 49999

@@ -1,0 +1,91 @@
+corn_seeds:
+  # itemname: "<white>玉米种子"
+  itemname: "<white>Corn Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/corn/corn_seeds
+
+corn:
+  # itemname: "<white>玉米"
+  itemname: "<white>Corn"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/corn/corn
+
+corn_silver_star:
+  # itemname: "<white>玉米（银星）"
+  itemname: "<white>Corn (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/corn/corn_silver_star
+
+corn_golden_star:
+  # itemname: "<white>玉米（金星）"
+  itemname: "<white>Corn (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/corn/corn_golden_star
+
+corn_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>玉米生长阶段 I"
+  itemname: "<white>Corn Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/corn/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 5
+      model: customcrops:block/crop/corn/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+corn_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>玉米生长阶段 II"
+  itemname: "<white>Corn Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/corn/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 6
+      model: customcrops:block/crop/corn/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+corn_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>玉米生长阶段 III"
+  itemname: "<white>Corn Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/corn/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 7
+      model: customcrops:block/crop/corn/stage_3
+      hardness: 0
+      drop:
+        silktouch: false
+
+corn_stage_4:
+  template: block_sound/crop
+  # itemname: "<white>玉米生长阶段 IV"
+  itemname: "<white>Corn Stage IV"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/corn/stage_4
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 8
+      model: customcrops:block/crop/corn/stage_4
+      hardness: 0
+      drop:
+        silktouch: false

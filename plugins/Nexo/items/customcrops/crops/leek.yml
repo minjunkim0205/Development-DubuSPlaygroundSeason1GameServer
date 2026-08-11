@@ -1,0 +1,75 @@
+leek_seeds:
+  # itemname: "<white>韭葱种子"
+  itemname: "<white>Leek Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/leek/leek_seeds
+
+leek:
+  # itemname: "<white>韭葱"
+  itemname: "<white>Leek"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/leek/leek
+
+leek_silver_star:
+  # itemname: "<white>韭葱（银星）"
+  itemname: "<white>Leek (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/leek/leek_silver_star
+
+leek_golden_star:
+  # itemname: "<white>韭葱（金星）"
+  itemname: "<white>Leek (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/leek/leek_golden_star
+
+leek_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>韭葱生长阶段 I"
+  itemname: "<white>Leek Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/leek/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 25
+      model: customcrops:block/crop/leek/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+leek_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>韭葱生长阶段 II"
+  itemname: "<white>Leek Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/leek/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 26
+      model: customcrops:block/crop/leek/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+leek_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>韭葱生长阶段 III"
+  itemname: "<white>Leek Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/leek/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 27
+      model: customcrops:block/crop/leek/stage_3
+      hardness: 0
+      drop:
+        silktouch: false  

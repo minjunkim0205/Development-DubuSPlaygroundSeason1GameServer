@@ -1,0 +1,75 @@
+green_bean_seeds:
+  # itemname: "<white>四季豆种子"
+  itemname: "<white>Green Bean Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/green_bean/green_bean_seeds
+
+green_bean:
+  # itemname: "<white>四季豆"
+  itemname: "<white>Green Bean"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/green_bean/green_bean
+
+green_bean_silver_star:
+  # itemname: "<white>四季豆（银星）"
+  itemname: "<white>Green Bean (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/green_bean/green_bean_silver_star
+
+green_bean_golden_star:
+  # itemname: "<white>四季豆（金星）"
+  itemname: "<white>Green Bean (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/green_bean/green_bean_golden_star
+
+green_bean_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>四季豆生长阶段 I"
+  itemname: "<white>Green Bean Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/green_bean/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 22
+      model: customcrops:block/crop/green_bean/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+green_bean_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>四季豆生长阶段 II"
+  itemname: "<white>Green Bean Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/green_bean/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 23
+      model: customcrops:block/crop/green_bean/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+green_bean_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>四季豆生长阶段 III"
+  itemname: "<white>Green Bean Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/green_bean/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 24
+      model: customcrops:block/crop/green_bean/stage_3
+      hardness: 0
+      drop:
+        silktouch: false  

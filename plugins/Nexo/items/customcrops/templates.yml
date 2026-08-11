@@ -1,0 +1,34 @@
+### Templates
+block_sound/wood:
+  template: true
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      block_sounds:
+        place_sound: block.wood.place
+        break_sound: block.wood.break
+        hit_sound: block.wood.hit
+        fall_sound: block.wood.fall
+        step_sound: block.wood.step
+block_sound/crop:
+  template: true
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      block_sounds:
+        place_sound: item.crop.plant
+        break_sound: block.crop.break
+        hit_sound: block.grass.hit
+        fall_sound: block.grass.fall
+        step_sound: block.grass.step
+block_sound/glass:
+  template: true
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      block_sounds:
+        place_sound: block.glass.place
+        break_sound: block.glass.break
+        hit_sound: block.glass.hit
+        fall_sound: block.glass.fall
+        step_sound: block.glass.step

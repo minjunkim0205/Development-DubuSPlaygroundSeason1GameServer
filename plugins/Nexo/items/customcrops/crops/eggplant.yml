@@ -1,0 +1,107 @@
+eggplant_seeds:
+  # itemname: "<white>茄子种子"
+  itemname: "<white>Eggplant Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/eggplant/eggplant_seeds
+
+eggplant:
+  # itemname: "<white>茄子"
+  itemname: "<white>Eggplant"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/eggplant/eggplant
+
+eggplant_silver_star:
+  # itemname: "<white>茄子（银星）"
+  itemname: "<white>Eggplant (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/eggplant/eggplant_silver_star
+
+eggplant_golden_star:
+  # itemname: "<white>茄子（金星）"
+  itemname: "<white>Eggplant (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/eggplant/eggplant_golden_star
+
+eggplant_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>茄子生长阶段 I"
+  itemname: "<white>Eggplant Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/eggplant/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 17
+      model: customcrops:block/crop/eggplant/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+eggplant_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>茄子生长阶段 II"
+  itemname: "<white>Eggplant Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/eggplant/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 18
+      model: customcrops:block/crop/eggplant/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+eggplant_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>茄子生长阶段 III"
+  itemname: "<white>Eggplant Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/eggplant/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 19
+      model: customcrops:block/crop/eggplant/stage_3
+      hardness: 0
+      drop:
+        silktouch: false
+
+eggplant_stage_4:
+  template: block_sound/crop
+  # itemname: "<white>茄子生长阶段 IV"
+  itemname: "<white>Eggplant Stage IV"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/eggplant/stage_4
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 20
+      model: customcrops:block/crop/eggplant/stage_4
+      hardness: 0
+      drop:
+        silktouch: false
+
+eggplant_stage_5:
+  template: block_sound/crop
+  # itemname: "<white>茄子生长阶段 V"
+  itemname: "<white>Eggplant Stage V"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/eggplant/stage_5
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 21
+      model: customcrops:block/crop/eggplant/stage_5
+      hardness: 0
+      drop:
+        silktouch: false

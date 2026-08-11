@@ -1,0 +1,8 @@
+{
+    "parent": "customcrops:block/misc/dry_pot_1",
+    "textures": {
+        "0": "customcrops:block/misc/pot_3",
+        "1": "customcrops:block/misc/farmland_3",
+		"particle": "customcrops:block/misc/pot_3"
+    }
+}

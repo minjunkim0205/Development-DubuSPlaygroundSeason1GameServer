@@ -1,0 +1,86 @@
+nether:
+  max-water-storage: 5
+  base:
+    dry: dry_pot_2
+    wet: wet_pot_2
+  absorb-rainwater: false
+  absorb-nearby-water: false
+  max-fertilizers: 0
+  fertilized-pots:
+    quality:
+      dry: dry_pot_2  
+      wet: wet_pot_2  
+    yield_increase:
+      dry: dry_pot_2 
+      wet: wet_pot_2  
+    variation:
+      dry: dry_pot_2 
+      wet: wet_pot_2  
+    soil_retain:
+      dry: dry_pot_2 
+      wet: wet_pot_2 
+    speed_grow:
+      dry: dry_pot_2 
+      wet: wet_pot_2 
+  fill-method:
+    method_1:
+      item: LAVA_BUCKET
+      return: BUCKET
+      amount: 3
+      actions:
+        sound_action:
+          type: sound
+          value:
+            source: player
+            key: minecraft:item.bucket.empty_lava
+            volume: 1
+            pitch: 1
+        swing_hand_action:
+          type: swing-hand
+          value: true
+  water-bar:
+    left: '뀂'   
+    full: '뀁뀄' 
+    empty: '뀁뀆'
+    right: '뀁뀇'
+  events:
+    interact:
+      conditional_action:
+        type: conditional
+        value:
+          conditions:
+            requirement_1:
+              type: item-in-hand
+              value:
+                amount: 1
+                item: soil_surveyor
+          actions:
+            conditional_fertilizer_action:
+              type: conditional
+              value:
+                conditions:
+                  requirement_1:
+                    type: fertilizer
+                    value:
+                      has: true
+                actions:
+                  fertilizer_hologram:
+                    type: hologram
+                    value:
+                      duration: 20 
+                      text: '<font:minecraft:customcrops>{icon}</font>{left_times}/{max_times}'
+                      apply-correction: true
+                      x: 0.5
+                      y: 0.83
+                      z: 0.5
+                      visible-to-all: false
+            water_hologram:
+              type: hologram
+              value:
+                duration: 20 
+                text: '<font:minecraft:customcrops>{water_bar}</font>'
+                apply-correction: true
+                x: 0.5
+                y: 0.6
+                z: 0.5
+                visible-to-all: false

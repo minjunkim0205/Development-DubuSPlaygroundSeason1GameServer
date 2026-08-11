@@ -1,0 +1,75 @@
+crimson_bracket_fungus_seeds:
+  # itemname: "<white>绯红栓菌种子"
+  itemname: "<white>Crimson Bracket Fungus Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus_seeds
+
+crimson_bracket_fungus:
+  # itemname: "<white>绯红栓菌"
+  itemname: "<white>Crimson Bracket Fungus"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus
+
+crimson_bracket_fungus_silver_star:
+  # itemname: "<white>绯红栓菌（银星）"
+  itemname: "<white>Crimson Bracket Fungus (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus_silver_star
+
+crimson_bracket_fungus_golden_star:
+  # itemname: "<white>绯红栓菌（金星）"
+  itemname: "<white>Crimson Bracket Fungus (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus_golden_star
+
+crimson_bracket_fungus_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>绯红栓菌生长阶段 I"
+  itemname: "<white>Crimson Bracket Fungus Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/crimson_bracket_fungus/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 9
+      model: customcrops:block/crop/crimson_bracket_fungus/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+crimson_bracket_fungus_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>绯红栓菌生长阶段 II"
+  itemname: "<white>Crimson Bracket Fungus Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/crimson_bracket_fungus/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 10
+      model: customcrops:block/crop/crimson_bracket_fungus/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+crimson_bracket_fungus_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>绯红栓菌生长阶段 III"
+  itemname: "<white>Crimson Bracket Fungus Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/crimson_bracket_fungus/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 11
+      model: customcrops:block/crop/crimson_bracket_fungus/stage_3
+      hardness: 0
+      drop:
+        silktouch: false  

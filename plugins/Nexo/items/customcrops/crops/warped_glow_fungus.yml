@@ -1,0 +1,75 @@
+warped_glow_fungus_seeds:
+  # itemname: "<white>诡异发光菌种子"
+  itemname: "<white>Warped Glow Fungus Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus_seeds
+
+warped_glow_fungus:
+  # itemname: "<white>诡异发光菌"
+  itemname: "<white>Warped Glow Fungus"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus
+
+warped_glow_fungus_silver_star:
+  # itemname: "<white>诡异发光菌（银星）"
+  itemname: "<white>Warped Glow Fungus (Silver Star)"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus_silver_star
+
+warped_glow_fungus_golden_star:
+  # itemname: "<white>诡异发光菌（金星）"
+  itemname: "<white>Warped Glow Fungus (Golden Star)"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus_golden_star
+
+warped_glow_fungus_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>诡异发光菌生长阶段 I"
+  itemname: "<white>Warped Glow Fungus Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/warped_glow_fungus/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 72
+      model: customcrops:block/crop/warped_glow_fungus/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+warped_glow_fungus_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>诡异发光菌生长阶段 II"
+  itemname: "<white>Warped Glow Fungus Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/warped_glow_fungus/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 73
+      model: customcrops:block/crop/warped_glow_fungus/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+warped_glow_fungus_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>诡异发光菌生长阶段 III"
+  itemname: "<white>Warped Glow Fungus Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/warped_glow_fungus/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 74
+      model: customcrops:block/crop/warped_glow_fungus/stage_3
+      hardness: 0
+      drop:
+        silktouch: false  

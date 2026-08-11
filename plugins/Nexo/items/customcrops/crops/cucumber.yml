@@ -1,0 +1,107 @@
+cucumber_seeds:
+  # itemname: "<white>黄瓜种子"
+  itemname: "<white>Cucumber Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/cucumber/cucumber_seeds
+
+cucumber:
+  # itemname: "<white>黄瓜"
+  itemname: "<white>Cucumber"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/cucumber/cucumber
+
+cucumber_silver_star:
+  # itemname: "<white>黄瓜（银星）"
+  itemname: "<white>Cucumber (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/cucumber/cucumber_silver_star
+
+cucumber_golden_star:
+  # itemname: "<white>黄瓜（金星）"
+  itemname: "<white>Cucumber (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/cucumber/cucumber_golden_star
+
+cucumber_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>黄瓜生长阶段 I"
+  itemname: "<white>Cucumber Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/cucumber/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 12
+      model: customcrops:block/crop/cucumber/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+cucumber_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>黄瓜生长阶段 II"
+  itemname: "<white>Cucumber Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/cucumber/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 13
+      model: customcrops:block/crop/cucumber/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+cucumber_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>黄瓜生长阶段 III"
+  itemname: "<white>Cucumber Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/cucumber/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 14
+      model: customcrops:block/crop/cucumber/stage_3
+      hardness: 0
+      drop:
+        silktouch: false
+
+cucumber_stage_4:
+  template: block_sound/crop
+  # itemname: "<white>黄瓜生长阶段 IV"
+  itemname: "<white>Cucumber Stage IV"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/cucumber/stage_4
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 15
+      model: customcrops:block/crop/cucumber/stage_4
+      hardness: 0
+      drop:
+        silktouch: false
+
+cucumber_stage_5:
+  template: block_sound/crop
+  # itemname: "<white>黄瓜生长阶段 V"
+  itemname: "<white>Cucumber Stage V"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/cucumber/stage_5
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 16
+      model: customcrops:block/crop/cucumber/stage_5
+      hardness: 0
+      drop:
+        silktouch: false

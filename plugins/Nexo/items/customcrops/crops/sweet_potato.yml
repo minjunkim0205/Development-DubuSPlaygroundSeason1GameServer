@@ -1,0 +1,75 @@
+sweet_potato_seeds:
+  # itemname: "<white>红薯种子"
+  itemname: "<white>Sweet Potato Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/sweet_potato/sweet_potato_seeds
+
+sweet_potato:
+  # itemname: "<white>红薯"
+  itemname: "<white>Sweet Potato"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/sweet_potato/sweet_potato
+
+sweet_potato_silver_star:
+  # itemname: "<white>红薯（银星）"
+  itemname: "<white>Sweet Potato (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/sweet_potato/sweet_potato_silver_star
+
+sweet_potato_golden_star:
+  # itemname: "<white>红薯（金星）"
+  itemname: "<white>Sweet Potato (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/sweet_potato/sweet_potato_golden_star
+
+sweet_potato_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>红薯生长阶段 I"
+  itemname: "<white>Sweet Potato Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/sweet_potato/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 56
+      model: customcrops:block/crop/sweet_potato/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+sweet_potato_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>红薯生长阶段 II"
+  itemname: "<white>Sweet Potato Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/sweet_potato/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 57
+      model: customcrops:block/crop/sweet_potato/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+sweet_potato_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>红薯生长阶段 III"
+  itemname: "<white>Sweet Potato Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/sweet_potato/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 58
+      model: customcrops:block/crop/sweet_potato/stage_3
+      hardness: 0
+      drop:
+        silktouch: false  

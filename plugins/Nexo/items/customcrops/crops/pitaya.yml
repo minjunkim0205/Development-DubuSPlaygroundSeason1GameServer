@@ -1,0 +1,123 @@
+pitaya_seeds:
+  # itemname: "<white>火龙果种子"
+  itemname: "<white>Pitaya Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/pitaya/pitaya_seeds
+
+pitaya:
+  # itemname: "<white>火龙果"
+  itemname: "<white>Pitaya"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/pitaya/pitaya
+
+pitaya_silver_star:
+  # itemname: "<white>火龙果（银星）"
+  itemname: "<white>Pitaya (Silver Star)"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/pitaya/pitaya_silver_star
+
+pitaya_golden_star:
+  # itemname: "<white>火龙果（金星）"
+  itemname: "<white>Pitaya (Golden Star)"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/pitaya/pitaya_golden_star
+
+pitaya_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>火龙果生长阶段 I"
+  itemname: "<white>Pitaya Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pitaya/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 44
+      model: customcrops:block/crop/pitaya/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+pitaya_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>火龙果生长阶段 II"
+  itemname: "<white>Pitaya Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pitaya/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 45
+      model: customcrops:block/crop/pitaya/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+pitaya_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>火龙果生长阶段 III"
+  itemname: "<white>Pitaya Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pitaya/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 46
+      model: customcrops:block/crop/pitaya/stage_3
+      hardness: 0
+      drop:
+        silktouch: false
+
+pitaya_stage_4:
+  template: block_sound/crop
+  # itemname: "<white>火龙果生长阶段 IV"
+  itemname: "<white>Pitaya Stage IV"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pitaya/stage_4
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 47
+      model: customcrops:block/crop/pitaya/stage_4
+      hardness: 0
+      drop:
+        silktouch: false
+
+pitaya_stage_5:
+  template: block_sound/crop
+  # itemname: "<white>火龙果生长阶段 V"
+  itemname: "<white>Pitaya Stage V"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pitaya/stage_5
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 48
+      model: customcrops:block/crop/pitaya/stage_5
+      hardness: 0
+      drop:
+        silktouch: false
+
+pitaya_stage_6:
+  template: block_sound/crop
+  # itemname: "<white>火龙果生长阶段 VI"
+  itemname: "<white>Pitaya Stage VI"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pitaya/stage_6
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 49
+      model: customcrops:block/crop/pitaya/stage_6
+      hardness: 0
+      drop:
+        silktouch: false

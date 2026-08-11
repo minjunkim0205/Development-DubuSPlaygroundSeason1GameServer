@@ -1,0 +1,75 @@
+virelo_seeds:
+  # itemname: "<white>幽碧兰种子"
+  itemname: "<white>Virelo Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/virelo/virelo_seeds
+
+virelo:
+  # itemname: "<white>幽碧兰"
+  itemname: "<white>Virelo"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/virelo/virelo
+
+virelo_silver_star:
+  # itemname: "<white>幽碧兰（银星）"
+  itemname: "<white>virelo (Silver Star)"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/virelo/virelo_silver_star
+
+virelo_golden_star:
+  # itemname: "<white>幽碧兰（金星）"
+  itemname: "<white>virelo (Golden Star)"
+  material: APPLE
+  Pack:
+    texture: customcrops:item/crop/virelo/virelo_golden_star
+
+virelo_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>幽碧兰生长阶段 I"
+  itemname: "<white>Virelo Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/virelo/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 69
+      model: customcrops:block/crop/virelo/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+virelo_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>幽碧兰生长阶段 II"
+  itemname: "<white>Virelo Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/virelo/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 70
+      model: customcrops:block/crop/virelo/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+virelo_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>幽碧兰生长阶段 III"
+  itemname: "<white>Virelo Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/virelo/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 71
+      model: customcrops:block/crop/virelo/stage_3
+      hardness: 0
+      drop:
+        silktouch: false  

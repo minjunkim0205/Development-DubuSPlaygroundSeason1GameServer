@@ -1,0 +1,7 @@
+{
+    "parent": "customcrops:item/wateringcan/watering_can_1",
+    "textures": {
+        "0": "customcrops:item/wateringcan/watering_can_2",
+        "particle": "customcrops:item/wateringcan/watering_can_2"
+    }
+}

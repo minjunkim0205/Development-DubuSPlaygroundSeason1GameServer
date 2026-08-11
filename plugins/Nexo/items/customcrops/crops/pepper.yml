@@ -1,0 +1,98 @@
+pepper_seeds:
+  # itemname: "<white>辣椒种子"
+  itemname: "<white>Pepper Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/pepper/pepper_seeds
+
+pepper:
+  # itemname: "<white>辣椒"
+  itemname: "<white>Pepper"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/pepper/pepper
+
+pepper_silver_star:
+  # itemname: "<white>辣椒（银星）"
+  itemname: "<white>Pepper (Silver Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/pepper/pepper_silver_star
+
+pepper_golden_star:
+  # itemname: "<white>辣椒（金星）"
+  itemname: "<white>Pepper (Golden Star)"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/pepper/pepper_golden_star
+
+pepper:
+  # itemname: "<white>辣椒"
+  itemname: "<white>Pepper"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/pepper/pepper
+
+pepper_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>辣椒生长阶段 I"
+  itemname: "<white>Pepper Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pepper/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 35
+      model: customcrops:block/crop/pepper/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+pepper_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>辣椒生长阶段 II"
+  itemname: "<white>Pepper Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pepper/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 36
+      model: customcrops:block/crop/pepper/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+pepper_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>辣椒生长阶段 III"
+  itemname: "<white>Pepper Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pepper/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 37
+      model: customcrops:block/crop/pepper/stage_3
+      hardness: 0
+      drop:
+        silktouch: false
+
+pepper_stage_4:
+  template: block_sound/crop
+  # itemname: "<white>辣椒生长阶段 IV"
+  itemname: "<white>Pepper Stage IV"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/pepper/stage_4
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 38
+      model: customcrops:block/crop/pepper/stage_4
+      hardness: 0
+      drop:
+        silktouch: false

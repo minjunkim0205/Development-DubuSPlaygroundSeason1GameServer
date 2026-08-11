@@ -1,0 +1,116 @@
+redpacket_seeds:
+  # itemname: "<white>摇钱树种子"
+  itemname: "<white>Redpacket Seeds"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/redpacket/redpacket_seeds
+
+redpacket:
+  # itemname: "<white>红包"
+  itemname: "<white>Redpacket"
+  material: SUGAR
+  Pack:
+    texture: customcrops:item/crop/redpacket/redpacket
+  Mechanics:
+    custom:
+      test:
+        one_usage: true
+        event: "CLICK:right:all"
+        actions:
+          - "[console] money give <player> 50"
+
+redpacket_stage_1:
+  template: block_sound/crop
+  # itemname: "<white>摇钱树生长阶段 I"
+  itemname: "<white>Redpacket Stage I"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/redpacket/stage_1
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 50
+      model: customcrops:block/crop/redpacket/stage_1
+      hardness: 0
+      drop:
+        silktouch: false
+
+redpacket_stage_2:
+  template: block_sound/crop
+  # itemname: "<white>摇钱树生长阶段 II"
+  itemname: "<white>Redpacket Stage II"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/redpacket/stage_2
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 51
+      model: customcrops:block/crop/redpacket/stage_2
+      hardness: 0
+      drop:
+        silktouch: false
+
+redpacket_stage_3:
+  template: block_sound/crop
+  # itemname: "<white>摇钱树生长阶段 III"
+  itemname: "<white>Redpacket Stage III"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/redpacket/stage_3
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 52
+      model: customcrops:block/crop/redpacket/stage_3
+      hardness: 0
+      drop:
+        silktouch: false
+
+redpacket_stage_4:
+  template: block_sound/crop
+  # itemname: "<white>摇钱树生长阶段 IV"
+  itemname: "<white>Redpacket Stage IV"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/redpacket/stage_4
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 53
+      model: customcrops:block/crop/redpacket/stage_4
+      hardness: 0
+      drop:
+        silktouch: false
+
+redpacket_stage_5:
+  template: block_sound/crop
+  # itemname: "<white>摇钱树生长阶段 V"
+  itemname: "<white>Redpacket Stage V"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/redpacket/stage_5
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 54
+      model: customcrops:block/crop/redpacket/stage_5
+      hardness: 0
+      drop:
+        silktouch: false
+
+redpacket_stage_6:
+  template: block_sound/crop
+  # itemname: "<white>摇钱树生长阶段 VI"
+  itemname: "<white>Redpacket Stage VI"
+  material: SUGAR
+  Pack:
+    model: customcrops:block/crop/redpacket/stage_6
+  Mechanics:
+    custom_block:
+      type: STRINGBLOCK
+      custom_variation: 55
+      model: customcrops:block/crop/redpacket/stage_6
+      hardness: 0
+      drop:
+        silktouch: false

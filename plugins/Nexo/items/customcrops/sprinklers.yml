@@ -1,0 +1,83 @@
+sprinkler_1:
+  # itemname: "<white>初级洒水器"
+  itemname: "<white>Primitive Sprinkler"
+  material: PAPER
+  Pack:
+    model: customcrops:block/sprinkler/sprinkler_1
+  Mechanics:
+    furniture:
+      restricted_rotation: VERY_STRICT
+      block_sounds:
+        place_sound: block.bone_block.place
+        break_sound: block.bone_block.break
+        hit_sound: block.bone_block.hit
+      hitbox:
+        interactions:
+          - 0,0,0 0.7501,0.6876
+      drop:
+        silktouch: false
+        loots:
+          - nexo_item: sprinkler_1
+
+sprinkler_2:
+  # itemname: "<white>优质洒水器"
+  itemname: "<white>Quality Sprinkler"
+  material: PAPER
+  Pack:
+    model: customcrops:block/sprinkler/sprinkler_2
+  Mechanics:
+    furniture:
+      restricted_rotation: VERY_STRICT
+      block_sounds:
+        place_sound: block.bone_block.place
+        break_sound: block.bone_block.break
+        hit_sound: block.bone_block.hit
+      hitbox:
+        interactions:
+          - 0,0,0 0.7501,0.6876
+      drop:
+        silktouch: false
+        loots:
+          - nexo_item: sprinkler_2
+
+sprinkler_3:
+  # itemname: "<white>高级洒水器"
+  itemname: "<white>Advanced Sprinkler"
+  material: PAPER
+  Pack:
+    model: customcrops:block/sprinkler/sprinkler_3
+  Mechanics:
+    furniture:
+      restricted_rotation: VERY_STRICT
+      block_sounds:
+        place_sound: block.bone_block.place
+        break_sound: block.bone_block.break
+        hit_sound: block.bone_block.hit
+      hitbox:
+        interactions:
+          - 0,0,0 0.7501,0.6876
+      drop:
+        silktouch: false
+        loots:
+          - nexo_item: sprinkler_3
+
+sprinkler_4:
+  # itemname: "<white>现代洒水器"
+  itemname: "<white>Modern Sprinkler"
+  material: PAPER
+  Pack:
+    model: customcrops:block/sprinkler/sprinkler_4
+  Mechanics:
+    furniture:
+      restricted_rotation: VERY_STRICT
+      block_sounds:
+        place_sound: block.bone_block.place
+        break_sound: block.bone_block.break
+        hit_sound: block.bone_block.hit
+      hitbox:
+        interactions:
+          - 0,0,0 0.501,0.7501
+      drop:
+        silktouch: false
+        loots:
+          - nexo_item: sprinkler_4

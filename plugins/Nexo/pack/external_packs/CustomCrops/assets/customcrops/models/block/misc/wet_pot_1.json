@@ -1,0 +1,6 @@
+{
+    "parent": "customcrops:block/misc/dry_pot_1",
+    "textures": {
+        "1": "block/farmland_moist"
+    }
+}
