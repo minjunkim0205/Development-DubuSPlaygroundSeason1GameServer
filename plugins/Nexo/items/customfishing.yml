@@ -368,6 +368,7 @@ beginner_rod:
     cast_model: customfishing:item/rod/beginner_rod_cast
     custom_model_data: 50001
   displayname: <b><#EEE9E9>초보자 낚싯대
+  itemname: <b><gradient:#F8F8FF:#DCDCDC:#BEBEBE>초보자 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -387,6 +388,7 @@ silver_rod:
     cast_model: customfishing:item/rod/silver_rod_cast
     custom_model_data: 50002
   displayname: <b><#C0C0C0>은빛 낚싯대
+  itemname: <b><gradient:#F8F8FF:#C0C0C0:#8F8F8F>은빛 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -405,6 +407,7 @@ golden_rod:
     cast_model: customfishing:item/rod/golden_rod_cast
     custom_model_data: 50003
   displayname: <b><#FFD700>황금 낚싯대
+  itemname: <b><gradient:#FFF8DC:#FFD700:#B8860B>황금 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -423,6 +426,7 @@ star_rod:
     cast_model: customfishing:item/rod/star_rod_cast
     custom_model_data: 50004
   displayname: <b><#FFFF00>별빛 낚싯대
+  itemname: <b><gradient:#F0F8FF:#FFFF00:#87CEFA:#9370DB>별빛 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -441,6 +445,7 @@ bone_rod:
     cast_model: customfishing:item/rod/bone_rod_cast
     custom_model_data: 50005
   displayname: <b><#CD2626>뼈 낚싯대
+  itemname: <b><gradient:#FFF5EE:#CD2626:#4B0000>뼈 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -461,6 +466,7 @@ magical_rod:
     cast_model: customfishing:item/rod/magical_rod_cast
     custom_model_data: 50006
   displayname: <b><#7B68EE>마법 낚싯대
+  itemname: <b><gradient:#E6E6FA:#7B68EE:#00BFFF:#E6E6FA>마법 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -484,6 +490,7 @@ master_rod:
     cast_model: customfishing:item/rod/master_rod_cast
     custom_model_data: 50007
   displayname: <b><#FFFF00>장인의 낚싯대
+  itemname: <b><gradient:#FFFFE0:#FFD700:#FF4500:#DAA520>장인의 낚싯대</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -503,6 +510,7 @@ simple_bait:
     model: customfishing:item/bait/simple_bait
     custom_model_data: 50001
   displayname: <b><#00BFFF>간단한 미끼
+  itemname: <b><gradient:#E0FFFF:#00BFFF:#1E90FF>간단한 미끼</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -517,6 +525,7 @@ magnetic_bait:
     model: customfishing:item/bait/magnetic_bait
     custom_model_data: 50002
   displayname: <b><red>자<blue>석 <gray>미끼
+  itemname: <b><gradient:#FF3333:#4169E1:#C0C0C0>자석 미끼</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -532,6 +541,7 @@ wild_bait:
     model: customfishing:item/bait/wild_bait
     custom_model_data: 50003
   displayname: <b><#2E8B57>야생 미끼
+  itemname: <b><gradient:#98FB98:#2E8B57:#556B2F>야생 미끼</gradient></b>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -547,6 +557,7 @@ delicate_hook:
     model: customfishing:item/hook/delicate_hook
     custom_model_data: 50000
   displayname: <#1E90FF>섬세한 낚싯바늘
+  itemname: <gradient:#E0FFFF:#1E90FF:#B0E0E6>섬세한 낚싯바늘</gradient>
   lore:
   - ''
   - '<#7FFFD4>설명:'
@@ -565,6 +576,7 @@ fishfinder:
     model: customfishing:item/util/fishfinder
     custom_model_data: 50000
   displayname: <#1E90FF>어군 탐지기
+  itemname: <gradient:#E0FFFF:#1E90FF:#00CED1>어군 탐지기</gradient>
   lore:
   - ''
   - '<#7FFFD4>설명:'
