@@ -7,251 +7,301 @@
 # ###########
 rainbow_fish:
   material: COD
+  displayname: <Rainbow>무지개 물고기</Rainbow>
   Pack:
     model: customfishing:item/fish/rainbow_fish
     custom_model_data: 50100
 radioactive_fish:
   material: COD
+  displayname: <#00BFFF>방사능 물고기</#00BFFF>
   Pack:
     model: customfishing:item/fish/radioactive_fish
     custom_model_data: 50000
 tuna_fish:
   material: COD
+  displayname: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient>
   Pack:
     model: customfishing:item/fish/tuna_fish
     custom_model_data: 50001
 tuna_fish_silver_star:
   material: COD
+  displayname: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/tuna_fish_silver_star
     custom_model_data: 50002
 tuna_fish_golden_star:
   material: COD
+  displayname: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/tuna_fish_golden_star
     custom_model_data: 50003
 pike_fish:
   material: COD
+  displayname: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient>
   Pack:
     model: customfishing:item/fish/pike_fish
     custom_model_data: 50004
 pike_fish_silver_star:
   material: COD
+  displayname: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/pike_fish_silver_star
     custom_model_data: 50005
 pike_fish_golden_star:
   material: COD
+  displayname: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/pike_fish_golden_star
     custom_model_data: 50006
 gold_fish:
   material: COD
+  displayname: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient>
   Pack:
     model: customfishing:item/fish/gold_fish
     custom_model_data: 50007
 gold_fish_silver_star:
   material: COD
+  displayname: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/gold_fish_silver_star
     custom_model_data: 50008
 gold_fish_golden_star:
   material: COD
+  displayname: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/gold_fish_golden_star
     custom_model_data: 50009
 perch_fish:
   material: COD
+  displayname: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient>
   Pack:
     model: customfishing:item/fish/perch_fish
     custom_model_data: 50010
 perch_fish_silver_star:
   material: COD
+  displayname: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/perch_fish_silver_star
     custom_model_data: 50011
 perch_fish_golden_star:
   material: COD
+  displayname: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/perch_fish_golden_star
     custom_model_data: 50012
 mullet_fish:
   material: COD
+  displayname: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient>
   Pack:
     model: customfishing:item/fish/mullet_fish
     custom_model_data: 50013
 mullet_fish_silver_star:
   material: COD
+  displayname: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/mullet_fish_silver_star
     custom_model_data: 50014
 mullet_fish_golden_star:
   material: COD
+  displayname: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/mullet_fish_golden_star
     custom_model_data: 50015
 sardine_fish:
   material: COD
+  displayname: <gradient:#E1FFFF:#5F9EA0>정어리</gradient>
   Pack:
     model: customfishing:item/fish/sardine_fish
     custom_model_data: 50016
 sardine_fish_silver_star:
   material: COD
+  displayname: <gradient:#E1FFFF:#5F9EA0>정어리</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/sardine_fish_silver_star
     custom_model_data: 50017
 sardine_fish_golden_star:
   material: COD
+  displayname: <gradient:#E1FFFF:#5F9EA0>정어리</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/sardine_fish_golden_star
     custom_model_data: 50018
 carp_fish:
   material: COD
+  displayname: <gradient:#808000:#556B2F>잉어</gradient>
   Pack:
     model: customfishing:item/fish/carp_fish
     custom_model_data: 50019
 carp_fish_silver_star:
   material: COD
+  displayname: <gradient:#808000:#556B2F>잉어</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/carp_fish_silver_star
     custom_model_data: 50020
 carp_fish_golden_star:
   material: COD
+  displayname: <gradient:#808000:#556B2F>잉어</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/carp_fish_golden_star
     custom_model_data: 50021
 cat_fish:
   material: COD
+  displayname: <#BDB76B>메기</#BDB76B>
   Pack:
     model: customfishing:item/fish/cat_fish
     custom_model_data: 50022
 cat_fish_silver_star:
   material: COD
+  displayname: <#BDB76B>메기</#BDB76B> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/cat_fish_silver_star
     custom_model_data: 50023
 cat_fish_golden_star:
   material: COD
+  displayname: <#BDB76B>메기</#BDB76B> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/cat_fish_golden_star
     custom_model_data: 50024
 octopus_fish:
   material: COD
+  displayname: <gradient:#D2691E:#FF6347>문어</gradient>
   Pack:
     model: customfishing:item/fish/octopus_fish
     custom_model_data: 50025
 octopus_fish_silver_star:
   material: COD
+  displayname: <gradient:#D2691E:#FF6347>문어</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/octopus_fish_silver_star
     custom_model_data: 50026
 octopus_fish_golden_star:
   material: COD
+  displayname: <gradient:#D2691E:#FF6347>문어</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/octopus_fish_golden_star
     custom_model_data: 50027
 sunfish_fish:
   material: COD
+  displayname: <#F5DEB3>개복치</#F5DEB3>
   Pack:
     model: customfishing:item/fish/sunfish_fish
     custom_model_data: 50028
 sunfish_fish_silver_star:
   material: COD
+  displayname: <#F5DEB3>개복치 <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/sunfish_fish_silver_star
     custom_model_data: 50029
 sunfish_fish_golden_star:
   material: COD
+  displayname: <#F5DEB3>개복치 <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/sunfish_fish_golden_star
     custom_model_data: 50030
 red_snapper_fish:
   material: COD
+  displayname: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient>
   Pack:
     model: customfishing:item/fish/red_snapper_fish
     custom_model_data: 50031
 red_snapper_silver_star:
   material: COD
+  displayname: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/red_snapper_silver_star
     custom_model_data: 50032
 red_snapper_fish_golden_star:
   material: COD
+  displayname: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/red_snapper_fish_golden_star
     custom_model_data: 50033
 salmon_void_fish:
   material: COD
+  displayname: <gradient:#800000:#800080>공허 연어</gradient>
   Pack:
     model: customfishing:item/fish/salmon_void_fish
     custom_model_data: 50034
 salmon_void_silver_star:
   material: COD
+  displayname: <gradient:#800000:#800080>공허 연어</gradient> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/salmon_void_silver_star
     custom_model_data: 50035
 salmon_void_fish_golden_star:
   material: COD
+  displayname: <gradient:#800000:#800080>공허 연어</gradient> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/salmon_void_fish_golden_star
     custom_model_data: 50036
 woodskip_fish:
   material: COD
+  displayname: <#CD5C5C>숲물고기</#CD5C5C>
   Pack:
     model: customfishing:item/fish/woodskip_fish
     custom_model_data: 50037
 woodskip_silver_star:
   material: COD
+  displayname: <#CD5C5C>숲물고기</#CD5C5C> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/woodskip_silver_star
     custom_model_data: 50038
 woodskip_fish_golden_star:
   material: COD
+  displayname: <#CD5C5C>숲물고기</#CD5C5C> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/woodskip_fish_golden_star
     custom_model_data: 50039
 sturgeon_fish:
   material: COD
+  displayname: <#48D1CC>철갑상어</#48D1CC>
   Pack:
     model: customfishing:item/fish/sturgeon_fish
     custom_model_data: 50040
 sturgeon_silver_star:
   material: COD
+  displayname: <#48D1CC>철갑상어</#48D1CC> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/sturgeon_silver_star
     custom_model_data: 50041
 sturgeon_fish_golden_star:
   material: COD
+  displayname: <#48D1CC>철갑상어</#48D1CC> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/sturgeon_fish_golden_star
     custom_model_data: 50042
 blue_jellyfish:
   material: COD
+  displayname: <#87CEFA>해파리</#87CEFA>
   Pack:
     model: customfishing:item/fish/blue_jellyfish
     custom_model_data: 50043
 blue_jellyfish_silver_star:
   material: COD
+  displayname: <#87CEFA>해파리</#87CEFA> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/blue_jellyfish_silver_star
     custom_model_data: 50044
 blue_jellyfish_golden_star:
   material: COD
+  displayname: <#87CEFA>해파리</#87CEFA> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/blue_jellyfish_golden_star
     custom_model_data: 50045
 pink_jellyfish:
   material: COD
+  displayname: <#FFC0CB>해파리</#FFC0CB>
   Pack:
     model: customfishing:item/fish/pink_jellyfish
     custom_model_data: 50046
 pink_jellyfish_silver_star:
   material: COD
+  displayname: <#FFC0CB>해파리</#FFC0CB> <#F5F5F5>(은별)</#F5F5F5>
   Pack:
     model: customfishing:item/fish/pink_jellyfish_silver_star
     custom_model_data: 50047
 pink_jellyfish_golden_star:
   material: COD
+  displayname: <#FFC0CB>해파리</#FFC0CB> <#FFD700>(금별)</#FFD700>
   Pack:
     model: customfishing:item/fish/pink_jellyfish_golden_star
     custom_model_data: 50048

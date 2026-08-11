@@ -161,9 +161,9 @@ accurate_click_bar_1_easy:
   difficulty: 15~30
   time: 15
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀂'
@@ -191,9 +191,9 @@ accurate_click_bar_1_normal:
   difficulty: 30~60
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀂'
@@ -221,9 +221,9 @@ accurate_click_bar_1_hard:
   difficulty: 60~90
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀂'
@@ -251,9 +251,9 @@ accurate_click_bar_2_easy:
   difficulty: 15~30
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀃'
@@ -281,9 +281,9 @@ accurate_click_bar_2_normal:
   difficulty: 30~60
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀃'
@@ -311,9 +311,9 @@ accurate_click_bar_2_hard:
   difficulty: 60~90
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀃'
@@ -341,9 +341,9 @@ accurate_click_bar_3_easy:
   difficulty: 15~30
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀄'
@@ -371,9 +371,9 @@ accurate_click_bar_3_normal:
   difficulty: 30~60
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀄'
@@ -401,9 +401,9 @@ accurate_click_bar_3_hard:
   difficulty: 60~90
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀄'
@@ -431,9 +431,9 @@ accurate_click_bar_4_easy:
   difficulty: 10~25
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀅'
@@ -472,9 +472,9 @@ accurate_click_bar_4_normal:
   difficulty: 25~40
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀅'
@@ -513,9 +513,9 @@ accurate_click_bar_4_hard:
   difficulty: 40~60
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀅'
@@ -554,9 +554,9 @@ accurate_click_bar_5_easy:
   difficulty: 10~25
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀆'
@@ -595,9 +595,9 @@ accurate_click_bar_5_normal:
   difficulty: 25~40
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀆'
@@ -636,9 +636,9 @@ accurate_click_bar_5_hard:
   difficulty: 40~60
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀆'
@@ -677,9 +677,9 @@ accurate_click_bar_6_easy:
   difficulty: 10~25
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀇'
@@ -718,9 +718,9 @@ accurate_click_bar_6_normal:
   difficulty: 25~40
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀇'
@@ -759,9 +759,9 @@ accurate_click_bar_6_hard:
   difficulty: 40~60
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀇'
@@ -800,9 +800,9 @@ accurate_click_bar_7_easy:
   difficulty: 10~20
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀈'
@@ -863,9 +863,9 @@ accurate_click_bar_7_normal:
   difficulty: 20~30
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀈'
@@ -926,9 +926,9 @@ accurate_click_bar_7_hard:
   difficulty: 30~40
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀈'
@@ -989,9 +989,9 @@ accurate_click_bar_8_easy:
   difficulty: 10~20
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀉'
@@ -1052,9 +1052,9 @@ accurate_click_bar_8_normal:
   difficulty: 20~30
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀉'
@@ -1115,9 +1115,9 @@ accurate_click_bar_8_hard:
   difficulty: 30~40
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀉'
@@ -1178,9 +1178,9 @@ accurate_click_bar_9_easy:
   difficulty: 10~20
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀊'
@@ -1241,9 +1241,9 @@ accurate_click_bar_9_normal:
   difficulty: 20~30
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀊'
@@ -1304,9 +1304,9 @@ accurate_click_bar_9_hard:
   difficulty: 30~40
   time: 30
   title:
-    - 'So close, stay cool!'
-    - 'The fish is hooked, focus on it!'
-    - 'Sturdy on! Victory is almost ours!'
+    - '거의 다 왔습니다, 침착하세요!'
+    - '물고기가 걸렸습니다, 집중하세요!'
+    - '버티세요! 거의 잡았습니다!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀊'
@@ -1374,7 +1374,7 @@ hold_game_easy:
   time: 30
   title: '{progress}'
   # Tip would show on the title to guide the player how to play
-  tip: '<gray>Press <red><key:key.sneak> <gray>to start'
+  tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 시작하세요'
   subtitle:
     font: 'customfishing:default'
     bar: '뀌'
@@ -1412,7 +1412,7 @@ hold_game_normal:
   time: 30
   title: '{progress}'
   # Tip would show on the title to guide the player how to play
-  tip: '<gray>Press <red><key:key.sneak> <gray>to start'
+  tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 시작하세요'
   subtitle:
     font: 'customfishing:default'
     bar: '뀌'
@@ -1452,7 +1452,7 @@ hold_game_hard:
   time: 30
   title: '{progress}'
   # Tip would show on the title to guide the player how to play
-  tip: '<gray>Press <red><key:key.sneak> <gray>to start'
+  tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 시작하세요'
   subtitle:
     font: 'customfishing:default'
     bar: '뀌'
@@ -1499,8 +1499,8 @@ tension_game_easy:
   time: 30
   title: '{progress}'
   # Tip would show on the title to guide the player how to play
-  tip: '<gray>Press <red><key:key.sneak> <gray>to start'
-  actionbar-tip: '<gray>Press <red><key:key.sneak> <gray>to pull the fish'
+  tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 시작하세요'
+  actionbar-tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 물고기를 당기세요'
   subtitle:
     font: 'customfishing:default'
     bar: '뀑'
@@ -1539,8 +1539,8 @@ tension_game_normal:
   time: 30
   title: '{progress}'
   # Tip would show on the title to guide the player how to play
-  tip: '<gray>Press <red><key:key.sneak> <gray>to start'
-  actionbar-tip: '<gray>Press <red><key:key.sneak> <gray>to pull the fish'
+  tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 시작하세요'
+  actionbar-tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 물고기를 당기세요'
   subtitle:
     font: 'customfishing:default'
     bar: '뀑'
@@ -1579,8 +1579,8 @@ tension_game_hard:
   time: 30
   title: '{progress}'
   # Tip would show on the title to guide the player how to play
-  tip: '<gray>Press <red><key:key.sneak> <gray>to start'
-  actionbar-tip: '<gray>Press <red><key:key.sneak> <gray>to pull the fish'
+  tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 시작하세요'
+  actionbar-tip: '<gray><red><key:key.sneak></red><gray> 키를 눌러 물고기를 당기세요'
   subtitle:
     font: 'customfishing:default'
     bar: '뀑'

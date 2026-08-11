@@ -109,7 +109,7 @@ diamond:
   disable-game: true
 rubbish:
   material: cod
-  nick: <#00BFFF>Radioactive Fish</#00BFFF>
+  nick: <#00BFFF>방사능 물고기</#00BFFF>
   display:
     name: <#00BFFF>방사능 물고기</#00BFFF>
     lore:
@@ -122,7 +122,7 @@ rubbish:
   prevent-grabbing: false
 rainbow_fish:
   material: cod
-  nick: <Rainbow>Rainbow Fish</Rainbow>
+  nick: <Rainbow>무지개 물고기</Rainbow>
   display:
     name: <Rainbow>무지개 물고기</Rainbow>
     lore:
@@ -227,7 +227,7 @@ tuna_fish:
   display:
     name: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient>
     lore:
-      - <gray>Tuna is a kind of healthy food.
+      - <gray>참치는 건강한 식재료로 널리 알려져 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50001
   group:
@@ -249,7 +249,7 @@ tuna_fish_silver_star:
   display:
     name: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Tuna is a kind of healthy food.
+      - <gray>참치는 건강한 식재료로 널리 알려져 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50002
   group:
@@ -271,7 +271,7 @@ tuna_fish_golden_star:
   display:
     name: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Tuna is a kind of healthy food.
+      - <gray>참치는 건강한 식재료로 널리 알려져 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50003
   group:
@@ -292,10 +292,10 @@ pike_fish:
   display:
     name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient>
     lore:
-      - <gray>It likes to inhabit at the junction
-      - <gray>of salt and fresh water. It can
-      - <gray>survive in seawater, brackish fresh
-      - <gray>water and inland freshwater lakes
+      - <gray>바닷물과 민물이 만나는 곳을 좋아합니다.
+      - <gray>바다와 기수, 내륙 담수호에서도
+      - <gray>살아남을 수 있는 강한 물고기입니다.
+      - <gray>다양한 물 환경에 잘 적응합니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50004
   group:
@@ -317,10 +317,10 @@ pike_fish_silver_star:
   display:
     name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>It likes to inhabit at the junction
-      - <gray>of salt and fresh water. It can
-      - <gray>survive in seawater, brackish fresh
-      - <gray>water and inland freshwater lakes
+      - <gray>바닷물과 민물이 만나는 곳을 좋아합니다.
+      - <gray>바다와 기수, 내륙 담수호에서도
+      - <gray>살아남을 수 있는 강한 물고기입니다.
+      - <gray>다양한 물 환경에 잘 적응합니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50005
   group:
@@ -342,10 +342,10 @@ pike_fish_golden_star:
   display:
     name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>It likes to inhabit at the junction
-      - <gray>of salt and fresh water. It can
-      - <gray>survive in seawater, brackish fresh
-      - <gray>water and inland freshwater lakes
+      - <gray>바닷물과 민물이 만나는 곳을 좋아합니다.
+      - <gray>바다와 기수, 내륙 담수호에서도
+      - <gray>살아남을 수 있는 강한 물고기입니다.
+      - <gray>다양한 물 환경에 잘 적응합니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50006
   group:
@@ -366,9 +366,9 @@ gold_fish:
   display:
     name: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient>
     lore:
-      - <gray>Goldfish is one of most famous ornamental
-      - <gray>fishes in the world. It originated in China
-      - <gray>and has a history of more than 1700 years
+      - <gray>금붕어는 세계에서 가장 유명한 관상어 중 하나입니다.
+      - <gray>중국에서 유래했으며
+      - <gray>1700년이 넘는 역사를 가지고 있습니다.
       - '<white>크기: {size_formatted}cm'
   price:
     base: 70
@@ -390,9 +390,9 @@ gold_fish_silver_star:
   display:
     name: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Goldfish is one of most famous ornamental
-      - <gray>fishes in the world. It originated in China
-      - <gray>and has a history of more than 1700 years
+      - <gray>금붕어는 세계에서 가장 유명한 관상어 중 하나입니다.
+      - <gray>중국에서 유래했으며
+      - <gray>1700년이 넘는 역사를 가지고 있습니다.
       - '<white>크기: {size_formatted}cm'
   price:
     base: 80
@@ -414,9 +414,9 @@ gold_fish_golden_star:
   display:
     name: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Goldfish is one of most famous ornamental
-      - <gray>fishes in the world. It originated in China
-      - <gray>and has a history of more than 1700 years
+      - <gray>금붕어는 세계에서 가장 유명한 관상어 중 하나입니다.
+      - <gray>중국에서 유래했으며
+      - <gray>1700년이 넘는 역사를 가지고 있습니다.
       - '<white>크기: {size_formatted}cm'
   price:
     base: 100
@@ -437,8 +437,8 @@ perch_fish:
   display:
     name: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient>
     lore:
-      - <gray>Living in various habitats and
-      - <gray>foraging at dusk and early morning
+      - <gray>다양한 서식지에서 살아가며
+      - <gray>해질녘과 이른 아침에 먹이 활동을 합니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50010
   group:
@@ -460,8 +460,8 @@ perch_fish_silver_star:
   display:
     name: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Living in various habitats and
-      - <gray>foraging at dusk and early morning
+      - <gray>다양한 서식지에서 살아가며
+      - <gray>해질녘과 이른 아침에 먹이 활동을 합니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50011
   group:
@@ -483,8 +483,8 @@ perch_fish_golden_star:
   display:
     name: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Living in various habitats and
-      - <gray>foraging at dusk and early morning
+      - <gray>다양한 서식지에서 살아가며
+      - <gray>해질녘과 이른 아침에 먹이 활동을 합니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50012
   group:
@@ -505,8 +505,8 @@ mullet_fish:
   display:
     name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient>
     lore:
-      - <gray>Used in traditional Chinese medicine
-      - <gray>to treat spleen and stomach weakness
+      - <gray>전통 약재로도 쓰였으며
+      - <gray>소화와 기력 회복에 좋다고 알려져 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50013
   group:
@@ -528,8 +528,8 @@ mullet_fish_silver_star:
   display:
     name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Used in traditional Chinese medicine
-      - <gray>to treat spleen and stomach weakness
+      - <gray>전통 약재로도 쓰였으며
+      - <gray>소화와 기력 회복에 좋다고 알려져 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50014
   group:
@@ -551,8 +551,8 @@ mullet_fish_golden_star:
   display:
     name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Used in traditional Chinese medicine
-      - <gray>to treat spleen and stomach weakness
+      - <gray>전통 약재로도 쓰였으며
+      - <gray>소화와 기력 회복에 좋다고 알려져 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50015
   group:
@@ -573,8 +573,8 @@ sardine_fish:
   display:
     name: <gradient:#E1FFFF:#5F9EA0>정어리</gradient>
     lore:
-      - <gray>Sardine fish is rich in DHA which improves memory
-      - <gray>Therefore, sardine are also called "smart food"
+      - <gray>정어리는 DHA가 풍부해 기억력에 도움을 줍니다.
+      - <gray>그래서 똑똑한 음식이라고도 불립니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50016
   group:
@@ -596,8 +596,8 @@ sardine_fish_silver_star:
   display:
     name: <gradient:#E1FFFF:#5F9EA0>정어리</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Sardine fish is rich in DHA which improves memory
-      - <gray>Therefore, sardine are also called "smart food"
+      - <gray>정어리는 DHA가 풍부해 기억력에 도움을 줍니다.
+      - <gray>그래서 똑똑한 음식이라고도 불립니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50017
   group:
@@ -619,8 +619,8 @@ sardine_fish_golden_star:
   display:
     name: <gradient:#E1FFFF:#5F9EA0>정어리</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Sardine fish is rich in DHA which improves memory
-      - <gray>Therefore, sardine are also called "smart food"
+      - <gray>정어리는 DHA가 풍부해 기억력에 도움을 줍니다.
+      - <gray>그래서 똑똑한 음식이라고도 불립니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50018
   group:
@@ -641,7 +641,7 @@ carp_fish:
   display:
     name: <gradient:#808000:#556B2F>잉어</gradient>
     lore:
-      - <gray>One of the most common edible fish
+      - <gray>가장 흔하게 먹는 물고기 중 하나입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50019
   group:
@@ -663,7 +663,7 @@ carp_fish_silver_star:
   display:
     name: <gradient:#808000:#556B2F>잉어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>One of the most common edible fish
+      - <gray>가장 흔하게 먹는 물고기 중 하나입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50020
   group:
@@ -685,7 +685,7 @@ carp_fish_golden_star:
   display:
     name: <gradient:#808000:#556B2F>잉어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>One of the most common edible fish
+      - <gray>가장 흔하게 먹는 물고기 중 하나입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50021
   group:
@@ -706,8 +706,8 @@ cat_fish:
   display:
     name: <#BDB76B>메기</#BDB76B>
     lore:
-      - <gray>Catfish is a fierce carnivorous fish with
-      - <gray>sharp jaw teeth, short intestine and stomach
+      - <gray>메기는 날카로운 턱니를 가진 사나운 육식성 물고기입니다.
+      - <gray>짧은 장과 튼튼한 위를 가지고 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50022
   group:
@@ -729,8 +729,8 @@ cat_fish_silver_star:
   display:
     name: <#BDB76B>메기</#BDB76B> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Catfish is a fierce carnivorous fish with
-      - <gray>sharp jaw teeth, short intestine and stomach
+      - <gray>메기는 날카로운 턱니를 가진 사나운 육식성 물고기입니다.
+      - <gray>짧은 장과 튼튼한 위를 가지고 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50023
   group:
@@ -752,8 +752,8 @@ cat_fish_golden_star:
   display:
     name: <#BDB76B>메기</#BDB76B> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Catfish is a fierce carnivorous fish with
-      - <gray>sharp jaw teeth, short intestine and stomach
+      - <gray>메기는 날카로운 턱니를 가진 사나운 육식성 물고기입니다.
+      - <gray>짧은 장과 튼튼한 위를 가지고 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50024
   group:
@@ -842,7 +842,7 @@ sunfish:
   display:
     name: <#F5DEB3>개복치</#F5DEB3>
     lore:
-      - <gray>It only has one huge head
+      - <gray>거대한 머리가 유난히 눈에 띄는 물고기입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50028
   group:
@@ -864,7 +864,7 @@ sunfish_silver_star:
   display:
     name: <#F5DEB3>개복치 <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>It only has one huge head
+      - <gray>거대한 머리가 유난히 눈에 띄는 물고기입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50029
   group:
@@ -886,7 +886,7 @@ sunfish_golden_star:
   display:
     name: <#F5DEB3>개복치 <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>It only has one huge head
+      - <gray>거대한 머리가 유난히 눈에 띄는 물고기입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50030
   group:
@@ -907,8 +907,8 @@ red_snapper_fish:
   display:
     name: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient>
     lore:
-      - <gray>They usually have a large family of ten or twenty
-      - <gray>with a male as the "head of the family"
+      - <gray>보통 열 마리에서 스무 마리 규모의 무리를 이룹니다.
+      - <gray>수컷 한 마리가 무리의 중심이 됩니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50031
   group:
@@ -931,8 +931,8 @@ red_snapper_fish_silver_star:
   display:
     name: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>They usually have a large family of ten or twenty
-      - <gray>with a male as the "head of the family"
+      - <gray>보통 열 마리에서 스무 마리 규모의 무리를 이룹니다.
+      - <gray>수컷 한 마리가 무리의 중심이 됩니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50032
   group:
@@ -954,8 +954,8 @@ red_snapper_fish_golden_star:
   display:
     name: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>They usually have a large family of ten or twenty
-      - <gray>with a male as the "head of the family"
+      - <gray>보통 열 마리에서 스무 마리 규모의 무리를 이룹니다.
+      - <gray>수컷 한 마리가 무리의 중심이 됩니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50033
   group:
@@ -976,8 +976,8 @@ salmon_void_fish:
   display:
     name: <gradient:#800000:#800080>공허 연어</gradient>
     lore:
-      - <gray>A fish from the hell
-      - <gray>It's looking at you...
+      - <gray>지옥에서 올라온 듯한 물고기입니다.
+      - <gray>당신을 바라보고 있습니다...
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50034
   group:
@@ -999,8 +999,8 @@ salmon_void_fish_silver_star:
   display:
     name: <gradient:#800000:#800080>공허 연어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>A fish from the hell
-      - <gray>It's looking at you...
+      - <gray>지옥에서 올라온 듯한 물고기입니다.
+      - <gray>당신을 바라보고 있습니다...
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50035
   group:
@@ -1022,8 +1022,8 @@ salmon_void_fish_golden_star:
   display:
     name: <gradient:#800000:#800080>공허 연어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>A fish from the hell
-      - <gray>It's looking at you...
+      - <gray>지옥에서 올라온 듯한 물고기입니다.
+      - <gray>당신을 바라보고 있습니다...
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50036
   group:
@@ -1044,8 +1044,8 @@ woodskip_fish:
   display:
     name: <#CD5C5C>숲물고기</#CD5C5C>
     lore:
-      - <gray>A very sensitive fish that can only
-      - <gray>live in pools deep in the forest
+      - <gray>아주 예민해서 숲 깊은 곳의 웅덩이에서만
+      - <gray>살아갈 수 있는 물고기입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50037
   group:
@@ -1067,8 +1067,8 @@ woodskip_fish_silver_star:
   display:
     name: <#CD5C5C>숲물고기</#CD5C5C> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>A very sensitive fish that can only
-      - <gray>live in pools deep in the forest
+      - <gray>아주 예민해서 숲 깊은 곳의 웅덩이에서만
+      - <gray>살아갈 수 있는 물고기입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50038
   group:
@@ -1090,8 +1090,8 @@ woodskip_fish_golden_star:
   display:
     name: <#CD5C5C>숲물고기</#CD5C5C> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>A very sensitive fish that can only
-      - <gray>live in pools deep in the forest
+      - <gray>아주 예민해서 숲 깊은 곳의 웅덩이에서만
+      - <gray>살아갈 수 있는 물고기입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50039
   group:
@@ -1112,8 +1112,8 @@ sturgeon_fish:
   display:
     name: <#48D1CC>철갑상어</#48D1CC>
     lore:
-      - <gray>An ancient bottom-feeder with a dwindling
-      - <gray>population. Females can live up to 150 years
+      - <gray>개체 수가 줄어드는 고대의 바닥 생활 물고기입니다.
+      - <gray>암컷은 최대 150년까지 살 수 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50040
   group:
@@ -1135,8 +1135,8 @@ sturgeon_fish_silver_star:
   display:
     name: <#48D1CC>철갑상어</#48D1CC> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>An ancient bottom-feeder with a dwindling
-      - <gray>population. Females can live up to 150 years
+      - <gray>개체 수가 줄어드는 고대의 바닥 생활 물고기입니다.
+      - <gray>암컷은 최대 150년까지 살 수 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50041
   group:
@@ -1158,8 +1158,8 @@ sturgeon_fish_golden_star:
   display:
     name: <#48D1CC>철갑상어</#48D1CC> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>An ancient bottom-feeder with a dwindling
-      - <gray>population. Females can live up to 150 years
+      - <gray>개체 수가 줄어드는 고대의 바닥 생활 물고기입니다.
+      - <gray>암컷은 최대 150년까지 살 수 있습니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50042
   group:
@@ -1180,7 +1180,7 @@ blue_jellyfish:
   display:
     name: <#87CEFA>해파리</#87CEFA>
     lore:
-      - <gray>Looks like a blue umbrella
+      - <gray>파란 우산처럼 보입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50043
   group:
@@ -1202,7 +1202,7 @@ blue_jellyfish_silver_star:
   display:
     name: <#87CEFA>해파리</#87CEFA> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Looks like a blue umbrella
+      - <gray>파란 우산처럼 보입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50044
   group:
@@ -1224,7 +1224,7 @@ blue_jellyfish_golden_star:
   display:
     name: <#87CEFA>해파리</#87CEFA> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Looks like a blue umbrella
+      - <gray>파란 우산처럼 보입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50045
   group:
@@ -1245,7 +1245,7 @@ pink_jellyfish:
   display:
     name: <#FFC0CB>해파리</#FFC0CB>
     lore:
-      - <gray>Seems to be sweet
+      - <gray>왠지 달콤해 보입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50046
   group:
@@ -1267,7 +1267,7 @@ pink_jellyfish_silver_star:
   display:
     name: <#FFC0CB>해파리</#FFC0CB> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Seems to be sweet
+      - <gray>왠지 달콤해 보입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50047
   group:
@@ -1289,7 +1289,7 @@ pink_jellyfish_golden_star:
   display:
     name: <#FFC0CB>해파리</#FFC0CB> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Seems to be sweet
+      - <gray>왠지 달콤해 보입니다.
       - '<white>크기: {size_formatted}cm'
   custom-model-data: 50048
   group:

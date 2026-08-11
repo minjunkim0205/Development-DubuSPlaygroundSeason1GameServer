@@ -31,7 +31,7 @@ fishfinder:
                 action_1:
                   type: message
                   value:
-                    - 'Slow down! You are using the fish finder too frequently.'
+                    - '잠시만요! 어군 탐지기를 너무 자주 사용하고 있습니다.'
           actions:
             action_1:
               type: fish-finder

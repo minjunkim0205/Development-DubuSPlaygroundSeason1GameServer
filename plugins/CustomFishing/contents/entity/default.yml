@@ -9,7 +9,7 @@ skeleton:
   disable-stat: true
   disable-game: true
   entity: skeleton
-  nick: <white>Skeleton</white>
+  nick: <white>스켈레톤</white>
   velocity:
     horizontal: 1.1
     vertical: 1.3
@@ -19,7 +19,7 @@ wither_skeleton:
   disable-stat: true
   disable-game: true
   entity: wither_skeleton
-  nick: <black>Wither Skeleton</black>
+  nick: <black>위더 스켈레톤</black>
   velocity:
     horizontal: 1.1
     vertical: 1.2
@@ -29,7 +29,7 @@ magma_cube:
   disable-stat: true
   disable-game: true
   entity: magma_cube
-  nick: <red>Magma Cube</black>
+  nick: <red>마그마 큐브</red>
   velocity:
     horizontal: 1.1
     vertical: 1.3
@@ -39,7 +39,7 @@ skeletalknight:
   disable-stat: true
   disable-game: true
   entity: MythicMobs:SkeletalKnight
-  nick: Skeletal Knight
+  nick: 해골 기사
   velocity:
     horizontal: 1.1
     vertical: 1.2

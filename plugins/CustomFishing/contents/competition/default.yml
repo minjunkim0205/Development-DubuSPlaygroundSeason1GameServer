@@ -34,7 +34,7 @@ weekend_competition:
     broadcast:
       type: broadcast
       value:
-        - '냚시 대회를 예정대로 시작하기에 플레이어 수가 부족합니다.'
+        - '낚시 대회를 예정대로 시작하기에 플레이어 수가 부족합니다.'
 
   bossbar:
     enable: true
@@ -64,12 +64,12 @@ weekend_competition:
     text:
       - '<#D4F2E7>◤─────────────────────────◥'
       - ''
-      - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>냚시 대회'
+      - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>낚시 대회'
       - ''
       - '     <#E1FFFF>현재 순위:</#E1FFFF>'
-      - '              <#E1FFFF>No.①: {1_player} - {1_score}'
-      - '              <#E1FFFF>No.②: {2_player} - {2_score}'
-      - '              <#E1FFFF>No.③: {3_player} - {3_score}'
+      - '              <#E1FFFF>1위: {1_player} - {1_score}'
+      - '              <#E1FFFF>2위: {2_player} - {2_score}'
+      - '              <#E1FFFF>3위: {3_player} - {3_score}'
       - ''
       - '<#D4F2E7>◣─────────────────────────◢'
     interval: 1200 # in ticks
@@ -80,11 +80,11 @@ weekend_competition:
       value:
         - '<#D4F2E7>◤─────────────────────────◥'
         - ''
-        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>냚시 대회'
+        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>낚시 대회'
         - ''
         - '      <#E1FFFF>목표:'
         - '         <#B0C4DE>{goal}'
-        - '           <#B0C4DE>냚시를 시작해 참가하세요!'
+        - '           <#B0C4DE>낚시를 시작해 참가하세요!'
         - ''
         - '<#D4F2E7>◣─────────────────────────◢'
   end-actions:
@@ -93,12 +93,12 @@ weekend_competition:
       value:
         - '<#D4F2E7>◤─────────────────────────◥'
         - ''
-        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>냚시 대회'
+        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>낚시 대회'
         - ''
         - '      <#E1FFFF>결과:'
-        - '              <gradient:#FFF8DC:#FFD700:#FFF8DC>No.①: {1_player} - {1_score}'
-        - '              <gradient:#F5FFFA:#F5F5F5:#F5FFFA>No.②: {2_player} - {2_score}'
-        - '              <gradient:#D2B48C:#CD853F:#D2B48C>No.③: {3_player} - {3_score}'
+        - '              <gradient:#FFF8DC:#FFD700:#FFF8DC>1위: {1_player} - {1_score}'
+        - '              <gradient:#F5FFFA:#F5F5F5:#F5FFFA>2위: {2_player} - {2_score}'
+        - '              <gradient:#D2B48C:#CD853F:#D2B48C>3위: {3_player} - {3_score}'
         - ''
         - '<#D4F2E7>◣─────────────────────────◢'
   participate-actions:
@@ -129,7 +129,7 @@ weekend_competition:
       messages_action:
         type: message
         value:
-          - '<#FF4500>[2위] Just miss the opportunity, try next time!'
+          - '<#FF4500>[2위] 아쉽습니다! 다음 기회에 다시 도전하세요!'
     3:
       command_action:
         type: command
@@ -138,7 +138,7 @@ weekend_competition:
       messages_action:
         type: message
         value:
-          - '<#FF4500>[3위] Just miss the opportunity, try next time!'
+          - '<#FF4500>[3위] 아쉽습니다! 다음 기회에 다시 도전하세요!'
     participation:
       command_action:
         type: command
@@ -147,4 +147,4 @@ weekend_competition:
       messages_action:
         type: message
         value:
-          - '<#FF4500>Thanks for participation!'
+          - '<#FF4500>참가해 주셔서 감사합니다!'

@@ -303,5 +303,5 @@ golden_star_totem:
         type: message-nearby
         value:
           message:
-            - '<#FFFF00>[TotemActivation]</#FFFF00> <#F5FFFA>{player}</#F5FFFA> <#F5F5F5>activated a totem nearby!</#F5F5F5>'
+            - '<#FFFF00>[토템 활성화]</#FFFF00> <#F5FFFA>{player}</#F5FFFA><#F5F5F5>님이 근처에서 토템을 활성화했습니다!</#F5F5F5>'
           range: 32

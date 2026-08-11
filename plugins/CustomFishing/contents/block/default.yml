@@ -7,7 +7,7 @@
 apple_crate:
   show-in-fishfinder: false
   disable-stat: true
-  nick: Apple Crate
+  nick: 사과 상자
   block: barrel
   velocity:
     horizontal: 1.07
@@ -50,7 +50,7 @@ apple_crate:
 carrot_crate:
   show-in-fishfinder: false
   disable-stat: true
-  nick: Carrot Crate
+  nick: 당근 상자
   block: barrel
   velocity:
     horizontal: 1.07

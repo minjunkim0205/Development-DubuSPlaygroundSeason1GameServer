@@ -26,13 +26,6 @@ pepper_golden_star:
   Pack:
     texture: customcrops:item/crop/pepper/pepper_golden_star
 
-pepper:
-  # itemname: "<white>辣椒"
-  itemname: "<gradient:#FF6B6B:#C1121F:#FFD166>고추</gradient>"
-  material: SUGAR
-  Pack:
-    texture: customcrops:item/crop/pepper/pepper
-
 pepper_stage_1:
   template: block_sound/crop
   # itemname: "<white>辣椒生长阶段 I"

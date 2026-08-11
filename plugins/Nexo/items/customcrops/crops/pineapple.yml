@@ -13,20 +13,6 @@ pineapple:
     texture: customcrops:item/crop/pineapple/pineapple
 
 pineapple_silver_star:
-  # itemname: "<white>菠萝（银星）"
-  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#F5F5F5>(은별)</#F5F5F5>"
-  material: SUGAR
-  Pack:
-    texture: customcrops:item/crop/pineapple/pineapple_silver_star
-
-pineapple_golden_star:
-  # itemname: "<white>菠萝（金星）"
-  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#FFD700>(금별)</#FFD700>"
-  material: SUGAR
-  Pack:
-    texture: customcrops:item/crop/pineapple/pineapple_golden_star
-
-pineapple_silver_star:
   # itemname: "<white>菠萝（银星品质）"
   itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
