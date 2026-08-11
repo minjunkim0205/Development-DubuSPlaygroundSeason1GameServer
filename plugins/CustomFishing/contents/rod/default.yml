@@ -17,17 +17,16 @@ FISHING_ROD:
 beginner_rod:
   material: fishing_rod
   display:
-    name: "<b><#EEE9E9>Beginner's Fishing Rod"
+    name: "<b><#EEE9E9>초보자 낚싯대"
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - Specially designed for those new to the art '
-      - '<gray> - of fishing, the Beginner''s Fishing Rod is a'
-      - '<gray> - novice angler''s best friend.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 낚시를 처음 시작하는 사람을 위해 제작된'
+      - '<gray> - 초보 낚시꾼의 든든한 친구입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Increase the waiting time'
-      - '<gray> - Reduces the challenge of fishing'
+      - '<#FFD700>효과:'
+      - '<gray> - 입질 대기 시간 증가'
+      - '<gray> - 낚시 난이도 감소'
   custom-model-data: 50001
   max-durability: 64
   effects:
@@ -41,16 +40,15 @@ beginner_rod:
 silver_rod:
   material: fishing_rod
   display:
-    name: "<b><#C0C0C0>Silver Fishing Rod"
+    name: "<b><#C0C0C0>은빛 낚싯대"
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - Elegantly crafted with a gleaming finish, the'
-      - '<gray> - Silver Star Fishing Rod is the dream of every'
-      - '<gray> - angler seeking silver-star quality fish.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 은별 품질의 물고기를 노리는'
+      - '<gray> - 낚시꾼에게 어울리는 낚싯대입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Increase the chance of getting silver star fish'
+      - '<#FFD700>효과:'
+      - '<gray> - 은별 물고기 획득 확률 증가'
   custom-model-data: 50002
   max-durability: 96
   effects:
@@ -62,16 +60,15 @@ silver_rod:
 golden_rod:
   material: fishing_rod
   display:
-    name: "<b><#FFD700>Golden Fishing Rod"
+    name: "<b><#FFD700>황금 낚싯대"
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - Glistening under the sunlight and exuding an'
-      - '<gray> - aura of luxury, the Golden Fishing Rod is the'
-      - '<gray> - epitome of high-tier angling gear.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 고급스러운 분위기를 풍기는'
+      - '<gray> - 상급 낚시 장비입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Increase the chance of getting golden star fish'
+      - '<#FFD700>효과:'
+      - '<gray> - 금별 물고기 획득 확률 증가'
   custom-model-data: 50003
   max-durability: 80
   effects:
@@ -83,18 +80,15 @@ golden_rod:
 star_rod:
   material: fishing_rod
   display:
-    name: "<b><#FFFF00>Star Fishing Rod"
+    name: "<b><#FFFF00>별빛 낚싯대"
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - Carved from stardust and bathed in cosmic energy,'
-      - '<gray> - the Star Fishing Rod is a testament to the wonders'
-      - '<gray> - of the universe. Its endless magical reservoir ensures'
-      - '<gray> - that time seems to stand still, granting anglers what'
-      - '<gray> - feels like an eternity to perfect their catch.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 별가루와 우주의 기운이 깃든 낚싯대입니다.'
+      - '<gray> - 충분한 시간을 확보해 완벽한 낚시를 돕습니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - +15s Game Time'
+      - '<#FFD700>효과:'
+      - '<gray> - +15초 게임 시간'
   custom-model-data: 50004
   max-durability: 128
   effects:
@@ -105,20 +99,17 @@ star_rod:
 bone_rod:
   material: fishing_rod
   display:
-    name: "<b><#CD2626>Bone Fishing Rod"
+    name: "<b><#CD2626>뼈 낚싯대"
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - Forged from the bones of age-old skeletons and'
-      - '<gray> - imbued with dark enchantments, the Skeleton Fishing'
-      - '<gray> - Rod is not for the faint-hearted. It allows the '
-      - '<gray> - brave or the mad to fish within the scorching '
-      - '<gray> - confines of lava, defying the usual limitations of'
-      - '<gray> - regular rods.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 오래된 해골의 뼈와 어둠의 마법이 깃든'
+      - '<gray> - 용감한 낚시꾼을 위한 낚싯대입니다.'
+      - '<gray> - 일반 낚싯대의 한계를 넘어 용암에서도 낚시할 수 있습니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Fish in lava'
-      - '<gray> - Attract skeletons'
+      - '<#FFD700>효과:'
+      - '<gray> - 용암 낚시 가능'
+      - '<gray> - 해골을 끌어들임'
   custom-model-data: 50005
   max-durability: 32
   effects:
@@ -128,23 +119,20 @@ bone_rod:
 magical_rod:
   material: fishing_rod
   display:
-    name: '<b><#7B68EE>Magical Fishing Rod'
+    name: '<b><#7B68EE>마법 낚싯대'
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - A product of arcane innovation, this unique'
-      - '<gray> - fishing rod uses enchanted books as bait.'
-      - '<gray> - Its intricate reel mechanism and magical '
-      - '<gray> - allure demand the exp level of its user,'
-      - '<gray> - consuming experience levels upon each cast.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 마법책을 미끼로 사용하는 독특한 낚싯대입니다.'
+      - '<gray> - 사용할 때마다 경험치 레벨을 소모합니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Get an enchantment book from fishing.'
-      - '<gray> - The waiting time is very long.'
+      - '<#FFD700>효과:'
+      - '<gray> - 낚시로 마법이 부여된 책 획득 가능'
+      - '<gray> - 입질 대기 시간이 매우 김'
       - ''
-      - '<#CD5C5C>Requirements:'
-      - '<gray> - 1x book bait'
-      - '<gray> - 30 exp levels'
+      - '<#CD5C5C>필요 조건:'
+      - '<gray> - 책 미끼 1개'
+      - '<gray> - 경험치 레벨 30'
   custom-model-data: 50006
   max-durability: 16
   requirements:
@@ -155,7 +143,7 @@ magical_rod:
         action_1:
           type: message
           value:
-            - 'You don''t have enough levels to control the rod.'
+            - '이 낚싯대를 다루기에는 레벨이 부족합니다.'
     requirement_2:
       type: bait
       value:
@@ -164,7 +152,7 @@ magical_rod:
         action_message:
           type: message
           value:
-            - 'You have to hold a book as bait.'
+            - '책을 미끼로 들고 있어야 합니다.'
   events:
     cast:
       action_level:
@@ -182,20 +170,17 @@ magical_rod:
 master_rod:
   material: fishing_rod
   display:
-    name: "<b><#FFFF00>Master's Fishing Rod"
+    name: "<b><#FFFF00>장인의 낚싯대"
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - Wielded only by the most skilled of anglers,'
-      - '<gray> - the Master''s Fishing Rod represents the pinnacle'
-      - '<gray> - of fishing craftsmanship. Meticulously crafted '
-      - '<gray> - for precision, it significantly reduces the '
-      - '<gray> - time it takes for a fish to bite.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 숙련된 낚시꾼을 위한 정밀한 낚싯대입니다.'
+      - '<gray> - 물고기가 미끼를 물기까지의 시간을 크게 줄입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Reduce the waiting time'
-      - '<gray> - Increase the challenge of fishing'
-      - '<gray> - Higher chance of getting quality fish'
+      - '<#FFD700>효과:'
+      - '<gray> - 입질 대기 시간 감소'
+      - '<gray> - 낚시 난이도 증가'
+      - '<gray> - 고품질 물고기 획득 확률 증가'
   custom-model-data: 50007
   max-durability: 128
   effects:

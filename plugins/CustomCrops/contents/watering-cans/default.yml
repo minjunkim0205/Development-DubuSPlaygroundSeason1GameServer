@@ -42,7 +42,7 @@ watering_can_1:
     # {storage}: Maximum water storage capacity
     lore:
       - '<italic:false><white><font:minecraft:customcrops>{water_bar}</font>'
-      - '<italic:false><gray>Right-click on water to refill the watering can.'
+      - '<italic:false><gray>물을 우클릭해 물뿌리개를 채우세요.'
   # Configuration for the water level display bar
   water-bar:
     left: '뀂'   # Left cap of the water bar
@@ -62,7 +62,7 @@ watering_can_1:
           pitch: 1
       actionbar_action:
         type: actionbar
-        value: '<red><bold>[X] Water has been used out'  # Message displayed on action bar
+        value: '<red><bold>[X] 물이 모두 소모되었습니다'  # Message displayed on action bar
     # Event triggered when water is consumed from the watering can
     consume_water:
       sound_action:
@@ -118,7 +118,7 @@ watering_can_2:
     enable: true
     lore:
       - '<italic:false><white><font:minecraft:customcrops>{water_bar}</font>'
-      - '<italic:false><gray>Right-click on water to refill the watering can.'
+      - '<italic:false><gray>물을 우클릭해 물뿌리개를 채우세요.'
   water-bar:
     left: '뀂'   
     full: '뀁뀃' 
@@ -135,7 +135,7 @@ watering_can_2:
           pitch: 1
       actionbar_action:
         type: actionbar
-        value: '<red><bold>[X] Water has been used out'
+        value: '<red><bold>[X] 물이 모두 소모되었습니다'
     consume_water:
       sound_action:
         type: sound
@@ -189,7 +189,7 @@ watering_can_3:
     enable: true
     lore:
       - '<italic:false><white><font:minecraft:customcrops>{water_bar}</font>'
-      - '<italic:false><gray>Right-click on water to refill the watering can.'
+      - '<italic:false><gray>물을 우클릭해 물뿌리개를 채우세요.'
   water-bar:
     left: '뀂'   
     full: '뀁뀃' 
@@ -206,7 +206,7 @@ watering_can_3:
           pitch: 1
       actionbar_action:
         type: actionbar
-        value: '<red><bold>[X] Water has been used out'
+        value: '<red><bold>[X] 물이 모두 소모되었습니다'
     consume_water:
       sound_action:
         type: sound
@@ -259,7 +259,7 @@ watering_can_4:
     enable: true
     lore:
       - '<italic:false><white><font:minecraft:customcrops>{water_bar}</font>'
-      - '<italic:false><gray>Right-click on water to refill the watering can.'
+      - '<italic:false><gray>물을 우클릭해 물뿌리개를 채우세요.'
   water-bar:
     left: '뀂'   
     full: '뀁뀃' 
@@ -276,7 +276,7 @@ watering_can_4:
           pitch: 1
       actionbar_action:
         type: actionbar
-        value: '<red><bold>[X] Water has been used out'
+        value: '<red><bold>[X] 물이 모두 소모되었습니다'
     consume_water:
       sound_action:
         type: sound

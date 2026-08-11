@@ -7,24 +7,23 @@
 delicate_hook:
   material: SHEARS
   display:
-    name: '<b><#1E90FF>Delicate hook'
+    name: '<b><#1E90FF>섬세한 낚싯바늘'
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray> - An embodiment of craftsmanship and allure, the hook'
-      - '<gray> - is not your average piece of tackle. Polished to'
-      - '<gray> - perfection and intricately designed, it gleams in the'
-      - '<gray> - water, irresistibly drawing high-quality fish closer.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 장인정신과 매력을 담은 낚싯바늘입니다.'
+      - '<gray> - 정교하게 다듬어진 표면이 물속에서 빛나'
+      - '<gray> - 고품질 물고기를 가까이 끌어들입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Increase the chance of getting high quality fish'
+      - '<#FFD700>효과:'
+      - '<gray> - 고품질 물고기 획득 확률 증가'
   max-durability: 16
   custom-model-data: 50000
   # {dur} / {max}
   lore-on-rod:
     - ''
-    - '<#7FFFAA>Equipped hook:'
-    - '<gray> - Delicate hook: <white>{dur}</white> times left'
+    - '<#7FFFAA>장착된 낚싯바늘:'
+    - '<gray> - 섬세한 낚싯바늘: <white>{dur}</white>회 남음'
   effects:
     effect_1:
       type: group-mod

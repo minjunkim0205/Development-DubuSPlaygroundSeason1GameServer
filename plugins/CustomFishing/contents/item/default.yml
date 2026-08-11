@@ -17,14 +17,14 @@ vanilla:
 # Some rubbish
 stick:
   tag: false
-  nick: '<#EEE685>Useless sticks</#EEE685>'
+  nick: '<#EEE685>쓸모없는 막대기</#EEE685>'
   material: stick
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 shoes:
   tag: false
-  nick: '<#8B814C>Something smells bad</#8B814C>'
+  nick: '<#8B814C>냄새나는 무언가</#8B814C>'
   material: leather_boots
   show-in-fishfinder: false
   disable-stat: true
@@ -32,77 +32,77 @@ shoes:
   random-durability: true
 seagrass:
   tag: false
-  nick: '<green>Sea Grass</green>'
+  nick: '<green>해초</green>'
   material: seagrass
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 kelp:
   tag: false
-  nick: '<green>Kelp</green>'
+  nick: '<green>다시마</green>'
   material: kelp
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 nether_brick:
   tag: false
-  nick: '<gray>Something hard</gray>'
+  nick: '<gray>딱딱한 무언가</gray>'
   material: nether_brick
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 flint:
   tag: false
-  nick: '<gray>Something hard</gray>'
+  nick: '<gray>딱딱한 무언가</gray>'
   material: flint
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 stone:
   tag: false
-  nick: '<gray>Something hard</gray>'
+  nick: '<gray>딱딱한 무언가</gray>'
   material: stone
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 netherrack:
   tag: false
-  nick: '<gray>Something hard</gray>'
+  nick: '<gray>딱딱한 무언가</gray>'
   material: netherrack
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 gold_ingot:
   tag: false
-  nick: '<yellow>Shining ingots</yellow>'
+  nick: '<yellow>빛나는 주괴</yellow>'
   material: gold_ingot
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 gold_nugget:
   tag: false
-  nick: '<yellow>Shining nuggets</yellow>'
+  nick: '<yellow>빛나는 조각</yellow>'
   material: gold_nugget
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 cobblestone:
   tag: false
-  nick: '<gray>Something hard</gray>'
+  nick: '<gray>딱딱한 무언가</gray>'
   material: cobblestone
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 obsidian:
   tag: false
-  nick: '<gray>Something hard</gray>'
+  nick: '<gray>딱딱한 무언가</gray>'
   material: obsidian
   show-in-fishfinder: false
   disable-stat: true
   disable-game: true
 diamond:
   tag: false
-  nick: '<#00FFFF>Diamond</#00FFFF>'
+  nick: '<#00FFFF>다이아몬드</#00FFFF>'
   material: diamond
   show-in-fishfinder: false
   disable-stat: true
@@ -111,9 +111,9 @@ rubbish:
   material: cod
   nick: <#00BFFF>Radioactive Fish</#00BFFF>
   display:
-    name: <#00BFFF>Radioactive Fish</#00BFFF>
+    name: <#00BFFF>방사능 물고기</#00BFFF>
     lore:
-      - <gray>Time to protect the environment
+      - <gray>환경을 지킬 시간입니다
   custom-model-data: 50000
   show-in-fishfinder: false
   disable-stat: true
@@ -124,9 +124,9 @@ rainbow_fish:
   material: cod
   nick: <Rainbow>Rainbow Fish</Rainbow>
   display:
-    name: <Rainbow>Rainbow Fish</Rainbow>
+    name: <Rainbow>무지개 물고기</Rainbow>
     lore:
-      - <gray>Bringing a good mood for the day
+      - <gray>하루 기분을 좋게 해 줍니다
   group: special_game
   custom-model-data: 50100
   price:
@@ -225,10 +225,10 @@ enchantment_book:
 tuna_fish:
   material: cod
   display:
-    name: <gradient:#F0FFFF:#4682B4:#F0FFFF>Tuna Fish</gradient>
+    name: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient>
     lore:
       - <gray>Tuna is a kind of healthy food.
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50001
   group:
     - ocean
@@ -247,11 +247,10 @@ tuna_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#F0FFFF:#4682B4:#F0FFFF>Tuna Fish</gradient> <#F5F5F5>(Silver
-      Star)</#F5F5F5>
+    name: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Tuna is a kind of healthy food.
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50002
   group:
     - silver_star
@@ -270,11 +269,10 @@ tuna_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#F0FFFF:#4682B4:#F0FFFF>Tuna Fish</gradient> <#FFD700>(Golden
-      Star)</#FFD700>
+    name: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Tuna is a kind of healthy food.
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50003
   group:
     - golden_star
@@ -292,13 +290,13 @@ tuna_fish_golden_star:
 pike_fish:
   material: cod
   display:
-    name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>Pike Fish</gradient>
+    name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient>
     lore:
       - <gray>It likes to inhabit at the junction
       - <gray>of salt and fresh water. It can
       - <gray>survive in seawater, brackish fresh
       - <gray>water and inland freshwater lakes
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50004
   group:
     - ocean
@@ -317,14 +315,13 @@ pike_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>Pike Fish</gradient> <#F5F5F5>(Silver
-      Star)</#F5F5F5>
+    name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>It likes to inhabit at the junction
       - <gray>of salt and fresh water. It can
       - <gray>survive in seawater, brackish fresh
       - <gray>water and inland freshwater lakes
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50005
   group:
     - silver_star
@@ -343,14 +340,13 @@ pike_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>Pike Fish</gradient> <#FFD700>(Golden
-      Star)</#FFD700>
+    name: <gradient:#F0F8FF:#5F9EA0:#F0F8FF>강꼬치고기</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>It likes to inhabit at the junction
       - <gray>of salt and fresh water. It can
       - <gray>survive in seawater, brackish fresh
       - <gray>water and inland freshwater lakes
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50006
   group:
     - golden_star
@@ -368,12 +364,12 @@ pike_fish_golden_star:
 gold_fish:
   material: cod
   display:
-    name: <gradient:#40E0D0:#FFD700:#F0F8FF>Gold Fish</gradient>
+    name: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient>
     lore:
       - <gray>Goldfish is one of most famous ornamental
       - <gray>fishes in the world. It originated in China
       - <gray>and has a history of more than 1700 years
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   price:
     base: 70
     bonus: 2.6
@@ -392,13 +388,12 @@ gold_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#40E0D0:#FFD700:#F0F8FF>Gold Fish</gradient> <#F5F5F5>(Silver
-      Star)</#F5F5F5>
+    name: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Goldfish is one of most famous ornamental
       - <gray>fishes in the world. It originated in China
       - <gray>and has a history of more than 1700 years
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   price:
     base: 80
     bonus: 3
@@ -417,13 +412,12 @@ gold_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#40E0D0:#FFD700:#F0F8FF>Gold Fish</gradient> <#FFD700>(Golden
-      Star)</#FFD700>
+    name: <gradient:#40E0D0:#FFD700:#F0F8FF>금붕어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Goldfish is one of most famous ornamental
       - <gray>fishes in the world. It originated in China
       - <gray>and has a history of more than 1700 years
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   price:
     base: 100
     bonus: 3.4
@@ -441,11 +435,11 @@ gold_fish_golden_star:
 perch_fish:
   material: cod
   display:
-    name: <gradient:#BDB76B:#2E8B57:#008B8B>Perch Fish</gradient>
+    name: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient>
     lore:
       - <gray>Living in various habitats and
       - <gray>foraging at dusk and early morning
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50010
   group:
     - no_star
@@ -464,12 +458,11 @@ perch_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#BDB76B:#2E8B57:#008B8B>Perch Fish</gradient> <#F5F5F5>(Silver
-      Star)</#F5F5F5>
+    name: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Living in various habitats and
       - <gray>foraging at dusk and early morning
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50011
   group:
     - silver_star
@@ -488,12 +481,11 @@ perch_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#BDB76B:#2E8B57:#008B8B>Perch Fish</gradient> <#FFD700>(Golden
-      Star)</#FFD700>
+    name: <gradient:#BDB76B:#2E8B57:#008B8B>농어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Living in various habitats and
       - <gray>foraging at dusk and early morning
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50012
   group:
     - golden_star
@@ -511,11 +503,11 @@ perch_fish_golden_star:
 mullet_fish:
   material: cod
   display:
-    name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>Mullet Fish</gradient>
+    name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient>
     lore:
       - <gray>Used in traditional Chinese medicine
       - <gray>to treat spleen and stomach weakness
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50013
   group:
     - no_star
@@ -534,12 +526,11 @@ mullet_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>Mullet Fish</gradient> <#F5F5F5>(Silver
-      Star)</#F5F5F5>
+    name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Used in traditional Chinese medicine
       - <gray>to treat spleen and stomach weakness
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50014
   group:
     - silver_star
@@ -558,12 +549,11 @@ mullet_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>Mullet Fish</gradient> <#FFD700>(Golden
-      Star)</#FFD700>
+    name: <gradient:#D4F2E7:#E1FFFF:#D4F2E7>숭어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Used in traditional Chinese medicine
       - <gray>to treat spleen and stomach weakness
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50015
   group:
     - golden_star
@@ -581,11 +571,11 @@ mullet_fish_golden_star:
 sardine_fish:
   material: cod
   display:
-    name: <gradient:#E1FFFF:#5F9EA0>Sardine Fish</gradient>
+    name: <gradient:#E1FFFF:#5F9EA0>정어리</gradient>
     lore:
       - <gray>Sardine fish is rich in DHA which improves memory
       - <gray>Therefore, sardine are also called "smart food"
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50016
   group:
     - ocean
@@ -604,11 +594,11 @@ sardine_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#E1FFFF:#5F9EA0>Sardine Fish</gradient> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <gradient:#E1FFFF:#5F9EA0>정어리</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Sardine fish is rich in DHA which improves memory
       - <gray>Therefore, sardine are also called "smart food"
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50017
   group:
     - silver_star
@@ -627,11 +617,11 @@ sardine_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#E1FFFF:#5F9EA0>Sardine Fish</gradient> <#FFD700>(Golden Star)</#FFD700>
+    name: <gradient:#E1FFFF:#5F9EA0>정어리</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Sardine fish is rich in DHA which improves memory
       - <gray>Therefore, sardine are also called "smart food"
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50018
   group:
     - golden_star
@@ -649,10 +639,10 @@ sardine_fish_golden_star:
 carp_fish:
   material: cod
   display:
-    name: <gradient:#808000:#556B2F>Carp Fish</gradient>
+    name: <gradient:#808000:#556B2F>잉어</gradient>
     lore:
       - <gray>One of the most common edible fish
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50019
   group:
     - no_star
@@ -671,10 +661,10 @@ carp_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#808000:#556B2F>Carp Fish</gradient> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <gradient:#808000:#556B2F>잉어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>One of the most common edible fish
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50020
   group:
     - silver_star
@@ -693,10 +683,10 @@ carp_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#808000:#556B2F>Carp Fish</gradient> <#FFD700>(Golden Star)</#FFD700>
+    name: <gradient:#808000:#556B2F>잉어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>One of the most common edible fish
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50021
   group:
     - golden_star
@@ -714,11 +704,11 @@ carp_fish_golden_star:
 cat_fish:
   material: cod
   display:
-    name: <#BDB76B>Cat Fish</#BDB76B>
+    name: <#BDB76B>메기</#BDB76B>
     lore:
       - <gray>Catfish is a fierce carnivorous fish with
       - <gray>sharp jaw teeth, short intestine and stomach
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50022
   group:
     - no_star
@@ -737,11 +727,11 @@ cat_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#BDB76B>Cat Fish</#BDB76B> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <#BDB76B>메기</#BDB76B> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Catfish is a fierce carnivorous fish with
       - <gray>sharp jaw teeth, short intestine and stomach
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50023
   group:
     - silver_star
@@ -760,11 +750,11 @@ cat_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#BDB76B>Cat Fish</#BDB76B> <#FFD700>(Golden Star)</#FFD700>
+    name: <#BDB76B>메기</#BDB76B> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Catfish is a fierce carnivorous fish with
       - <gray>sharp jaw teeth, short intestine and stomach
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50024
   group:
     - golden_star
@@ -782,11 +772,11 @@ cat_fish_golden_star:
 octopus:
   material: cod
   display:
-    name: <gradient:#D2691E:#FF6347>Octopus</gradient>
+    name: <gradient:#D2691E:#FF6347>문어</gradient>
     lore:
-      - <gray>Octopus is crazy about all kinds of utensils
-      - <gray>People often use pots to catch octopus
-      - '<white>size: {size_formatted}cm'
+      - <gray>문어는 온갖 도구에 관심이 많습니다
+      - <gray>사람들은 문어를 잡을 때 항아리를 자주 씁니다
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50025
   group:
     - ocean
@@ -805,11 +795,11 @@ octopus_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#D2691E:#FF6347>Octopus</gradient> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <gradient:#D2691E:#FF6347>문어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
-      - <gray>Octopus is crazy about all kinds of utensils
-      - <gray>People often use pots to catch octopus
-      - '<white>size: {size_formatted}cm'
+      - <gray>문어는 온갖 도구에 관심이 많습니다
+      - <gray>사람들은 문어를 잡을 때 항아리를 자주 씁니다
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50026
   group:
     - silver_star
@@ -828,11 +818,11 @@ octopus_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#D2691E:#FF6347>Octopus</gradient> <#FFD700>(Golden Star)</#FFD700>
+    name: <gradient:#D2691E:#FF6347>문어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
-      - <gray>Octopus is crazy about all kinds of utensils
-      - <gray>People often use pots to catch octopus
-      - '<white>size: {size_formatted}cm'
+      - <gray>문어는 온갖 도구에 관심이 많습니다
+      - <gray>사람들은 문어를 잡을 때 항아리를 자주 씁니다
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50027
   group:
     - golden_star
@@ -850,10 +840,10 @@ octopus_golden_star:
 sunfish:
   material: cod
   display:
-    name: <#F5DEB3>Sunfish</#F5DEB3>
+    name: <#F5DEB3>개복치</#F5DEB3>
     lore:
       - <gray>It only has one huge head
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50028
   group:
     - ocean
@@ -872,10 +862,10 @@ sunfish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#F5DEB3>Sunfish <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <#F5DEB3>개복치 <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>It only has one huge head
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50029
   group:
     - silver_star
@@ -894,10 +884,10 @@ sunfish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#F5DEB3>Sunfish <#FFD700>(Golden Star)</#FFD700>
+    name: <#F5DEB3>개복치 <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>It only has one huge head
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50030
   group:
     - golden_star
@@ -915,11 +905,11 @@ sunfish_golden_star:
 red_snapper_fish:
   material: cod
   display:
-    name: <gradient:#FF4500:#FFA07A:#FF4500>Red Snapper Fish</gradient>
+    name: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient>
     lore:
       - <gray>They usually have a large family of ten or twenty
       - <gray>with a male as the "head of the family"
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50031
   group:
     - ocean
@@ -939,12 +929,11 @@ red_snapper_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#FF4500:#FFA07A:#FF4500>Red Snapper Fish</gradient> <#F5F5F5>(Silver
-      Star)</#F5F5F5>
+    name: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>They usually have a large family of ten or twenty
       - <gray>with a male as the "head of the family"
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50032
   group:
     - silver_star
@@ -963,12 +952,11 @@ red_snapper_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#FF4500:#FFA07A:#FF4500>Red Snapper Fish</gradient> <#FFD700>(Golden
-      Star)</#FFD700>
+    name: <gradient:#FF4500:#FFA07A:#FF4500>참돔</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>They usually have a large family of ten or twenty
       - <gray>with a male as the "head of the family"
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50033
   group:
     - golden_star
@@ -986,11 +974,11 @@ red_snapper_fish_golden_star:
 salmon_void_fish:
   material: cod
   display:
-    name: <gradient:#800000:#800080>Void Salmon</gradient>
+    name: <gradient:#800000:#800080>공허 연어</gradient>
     lore:
       - <gray>A fish from the hell
       - <gray>It's looking at you...
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50034
   group:
     - lava
@@ -1009,11 +997,11 @@ salmon_void_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#800000:#800080>Void Salmon</gradient> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <gradient:#800000:#800080>공허 연어</gradient> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>A fish from the hell
       - <gray>It's looking at you...
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50035
   group:
     - silver_star
@@ -1032,11 +1020,11 @@ salmon_void_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <gradient:#800000:#800080>Void Salmon</gradient> <#FFD700>(Golden Star)</#FFD700>
+    name: <gradient:#800000:#800080>공허 연어</gradient> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>A fish from the hell
       - <gray>It's looking at you...
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50036
   group:
     - golden_star
@@ -1054,11 +1042,11 @@ salmon_void_fish_golden_star:
 woodskip_fish:
   material: cod
   display:
-    name: <#CD5C5C>Woodskip Fish</#CD5C5C>
+    name: <#CD5C5C>숲물고기</#CD5C5C>
     lore:
       - <gray>A very sensitive fish that can only
       - <gray>live in pools deep in the forest
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50037
   group:
     - no_star
@@ -1077,11 +1065,11 @@ woodskip_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#CD5C5C>Woodskip Fish</#CD5C5C> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <#CD5C5C>숲물고기</#CD5C5C> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>A very sensitive fish that can only
       - <gray>live in pools deep in the forest
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50038
   group:
     - silver_star
@@ -1100,11 +1088,11 @@ woodskip_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#CD5C5C>Woodskip Fish</#CD5C5C> <#FFD700>(Golden Star)</#FFD700>
+    name: <#CD5C5C>숲물고기</#CD5C5C> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>A very sensitive fish that can only
       - <gray>live in pools deep in the forest
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50039
   group:
     - golden_star
@@ -1122,11 +1110,11 @@ woodskip_fish_golden_star:
 sturgeon_fish:
   material: cod
   display:
-    name: <#48D1CC>Sturgeon Fish</#48D1CC>
+    name: <#48D1CC>철갑상어</#48D1CC>
     lore:
       - <gray>An ancient bottom-feeder with a dwindling
       - <gray>population. Females can live up to 150 years
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50040
   group:
     - no_star
@@ -1145,11 +1133,11 @@ sturgeon_fish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#48D1CC>Sturgeon Fish</#48D1CC> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <#48D1CC>철갑상어</#48D1CC> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>An ancient bottom-feeder with a dwindling
       - <gray>population. Females can live up to 150 years
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50041
   group:
     - silver_star
@@ -1168,11 +1156,11 @@ sturgeon_fish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#48D1CC>Sturgeon Fish</#48D1CC> <#FFD700>(Golden Star)</#FFD700>
+    name: <#48D1CC>철갑상어</#48D1CC> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>An ancient bottom-feeder with a dwindling
       - <gray>population. Females can live up to 150 years
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50042
   group:
     - golden_star
@@ -1190,10 +1178,10 @@ sturgeon_fish_golden_star:
 blue_jellyfish:
   material: cod
   display:
-    name: <#87CEFA>Jellyfish</#87CEFA>
+    name: <#87CEFA>해파리</#87CEFA>
     lore:
       - <gray>Looks like a blue umbrella
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50043
   group:
     - warm_ocean
@@ -1212,10 +1200,10 @@ blue_jellyfish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#87CEFA>Jellyfish</#87CEFA> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <#87CEFA>해파리</#87CEFA> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Looks like a blue umbrella
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50044
   group:
     - silver_star
@@ -1234,10 +1222,10 @@ blue_jellyfish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#87CEFA>Jellyfish</#87CEFA> <#FFD700>(Golden Star)</#FFD700>
+    name: <#87CEFA>해파리</#87CEFA> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Looks like a blue umbrella
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50045
   group:
     - golden_star
@@ -1255,10 +1243,10 @@ blue_jellyfish_golden_star:
 pink_jellyfish:
   material: cod
   display:
-    name: <#FFC0CB>Jellyfish</#FFC0CB>
+    name: <#FFC0CB>해파리</#FFC0CB>
     lore:
       - <gray>Seems to be sweet
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50046
   group:
     - warm_ocean
@@ -1277,10 +1265,10 @@ pink_jellyfish_silver_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#FFC0CB>Jellyfish</#FFC0CB> <#F5F5F5>(Silver Star)</#F5F5F5>
+    name: <#FFC0CB>해파리</#FFC0CB> <#F5F5F5>(은별)</#F5F5F5>
     lore:
       - <gray>Seems to be sweet
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50047
   group:
     - silver_star
@@ -1299,10 +1287,10 @@ pink_jellyfish_golden_star:
   show-in-fishfinder: false
   material: cod
   display:
-    name: <#FFC0CB>Jellyfish</#FFC0CB> <#FFD700>(Golden Star)</#FFD700>
+    name: <#FFC0CB>해파리</#FFC0CB> <#FFD700>(금별)</#FFD700>
     lore:
       - <gray>Seems to be sweet
-      - '<white>size: {size_formatted}cm'
+      - '<white>크기: {size_formatted}cm'
   custom-model-data: 50048
   group:
     - golden_star

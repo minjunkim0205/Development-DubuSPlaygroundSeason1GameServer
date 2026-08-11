@@ -1,41 +1,41 @@
 pineapple_seeds:
   # itemname: "<white>菠萝种子"
-  itemname: "<white>Pineapple Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>파인애플 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pineapple/pineapple_seeds
 
 pineapple:
   # itemname: "<white>菠萝"
-  itemname: "<white>Pineapple"
+  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/pineapple/pineapple
 
 pineapple_silver_star:
   # itemname: "<white>菠萝（银星）"
-  itemname: "<white>Pineapple (Silver Star)"
+  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pineapple/pineapple_silver_star
 
 pineapple_golden_star:
   # itemname: "<white>菠萝（金星）"
-  itemname: "<white>Pineapple (Golden Star)"
+  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pineapple/pineapple_golden_star
 
 pineapple_silver_star:
   # itemname: "<white>菠萝（银星品质）"
-  itemname: "<white>Pineapple (Silver Star)"
+  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/pineapple/pineapple_silver_star
 
 pineapple_golden_star:
   # itemname: "<white>菠萝（金星品质）"
-  itemname: "<white>Pineapple (Golden Star)"
+  itemname: "<gradient:#FFF3B0:#F4A261:#2A9D8F>파인애플</gradient> <#FFD700>(금별)</#FFD700>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/pineapple/pineapple_golden_star
@@ -43,7 +43,7 @@ pineapple_golden_star:
 gigantic_pineapple:
   template: block_sound/wood
   # itemname: "<white>巨型菠萝"
-  itemname: "<white>Overgrown pineapple"
+  itemname: "<gradient:#FDE68A:#B45309:#FDE68A>거대 파인애플</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pineapple/gigantic_pineapple
@@ -59,7 +59,7 @@ gigantic_pineapple:
 pineapple_stage_1:
   template: block_sound/crop
   # itemname: "<white>菠萝生长阶段 I"
-  itemname: "<white>Pineapple Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>파인애플 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pineapple/stage_1
@@ -75,7 +75,7 @@ pineapple_stage_1:
 pineapple_stage_2:
   template: block_sound/crop
   # itemname: "<white>菠萝生长阶段 II"
-  itemname: "<white>Pineapple Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>파인애플 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pineapple/stage_2
@@ -91,7 +91,7 @@ pineapple_stage_2:
 pineapple_stage_3:
   template: block_sound/crop
   # itemname: "<white>菠萝生长阶段 III"
-  itemname: "<white>Pineapple Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>파인애플 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pineapple/stage_3
@@ -107,7 +107,7 @@ pineapple_stage_3:
 pineapple_stage_4:
   template: block_sound/crop
   # itemname: "<white>菠萝生长阶段 IV"
-  itemname: "<white>Pineapple Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>파인애플 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pineapple/stage_4

@@ -1,9 +1,9 @@
 watering_can_1:
   # itemname: "<white>铜制浇水壶"
-  itemname: "<white>Copper Watering Can"
+  itemname: "<gradient:#B87333:#F6C28B:#B87333>구리 물뿌리개</gradient>"
   lore:
   - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
-  - "Right-click on water to refill the watering can."
+  - "<#7FFFD4>물을 채워 물뿌리개를 사용하세요."
   # - "右键水方块以装填浇水壶"
   material: GOLDEN_HORSE_ARMOR
   Pack:
@@ -11,10 +11,10 @@ watering_can_1:
 
 watering_can_2:
   # itemname: "<white>钢制浇水壶"
-  itemname: "<white>Steel Watering Can"
+  itemname: "<gradient:#DDE6EA:#7E8A93:#DDE6EA>강철 물뿌리개</gradient>"
   lore:
   - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
-  - "Right-click on water to refill the watering can."
+  - "<#7FFFD4>물을 채워 물뿌리개를 사용하세요."
   # - "右键水方块以装填浇水壶"
   material: GOLDEN_HORSE_ARMOR
   Pack:
@@ -22,10 +22,10 @@ watering_can_2:
 
 watering_can_3:
   # itemname: "<white>黄金浇水壶"
-  itemname: "<white>Golden Watering Can"
+  itemname: "<gradient:#FFF8DC:#FFD700:#FFF8DC>황금 물뿌리개</gradient>"
   lore:
   - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
-  - "Right-click on water to refill the watering can."
+  - "<#7FFFD4>물을 채워 물뿌리개를 사용하세요."
   # - "右键水方块以装填浇水壶"
   material: GOLDEN_HORSE_ARMOR
   Pack:
@@ -33,10 +33,10 @@ watering_can_3:
 
 watering_can_4:
   # itemname: "<white>铱制浇水壶"
-  itemname: "<white>Iridium Watering Can"
+  itemname: "<gradient:#C7D2FE:#8B5CF6:#67E8F9>이리듐 물뿌리개</gradient>"
   lore:
   - "<glyph:bars_left><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_empty><glyph:-1><glyph:bars_right>"
-  - "Right-click on water to refill the watering can."
+  - "<#7FFFD4>물을 채워 물뿌리개를 사용하세요."
   # - "右键水方块以装填浇水壶"
   material: GOLDEN_HORSE_ARMOR
   Pack:

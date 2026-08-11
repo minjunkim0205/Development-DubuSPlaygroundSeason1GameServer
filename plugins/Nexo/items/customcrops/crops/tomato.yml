@@ -1,41 +1,41 @@
 tomato_seeds:
   # itemname: "<white>番茄种子"
-  itemname: "<white>Tomato Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>토마토 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/tomato/tomato_seeds
 
 tomato:
   # itemname: "<white>番茄"
-  itemname: "<white>Tomato"
+  itemname: "<gradient:#FFB703:#D62828:#FFB703>토마토</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/tomato/tomato
 
 tomato_silver_star:
   # itemname: "<white>番茄（银星）"
-  itemname: "<white>Tomato (Silver Star)"
+  itemname: "<gradient:#FFB703:#D62828:#FFB703>토마토</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/tomato/tomato_silver_star
 
 tomato_golden_star:
   # itemname: "<white>番茄（金星）"
-  itemname: "<white>Tomato (Golden Star)"
+  itemname: "<gradient:#FFB703:#D62828:#FFB703>토마토</gradient> <#FFD700>(금별)</#FFD700>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/tomato/tomato_golden_star
 
 golden_tomato:
   # itemname: "<white>黄金番茄"
-  itemname: "<white>Golden Tomato"
+  itemname: "<gradient:#FFF8DC:#FFD700:#FFF8DC>황금 토마토</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/tomato/golden_tomato
 
 giant_tomato:
   # itemname: "<white>大番茄"
-  itemname: "<white>Giant Tomato"
+  itemname: "<gradient:#FDE68A:#B45309:#FDE68A>거대 토마토</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/tomato/giant_tomato
@@ -43,7 +43,7 @@ giant_tomato:
 tomato_stage_1:
   template: block_sound/crop
   # itemname: "<white>番茄生长阶段 I"
-  itemname: "<white>Tomato Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>토마토 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/tomato/stage_1
@@ -59,7 +59,7 @@ tomato_stage_1:
 tomato_stage_2:
   template: block_sound/crop
   # itemname: "<white>番茄生长阶段 II"
-  itemname: "<white>Tomato Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>토마토 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/tomato/stage_2
@@ -75,7 +75,7 @@ tomato_stage_2:
 tomato_stage_3:
   template: block_sound/crop
   # itemname: "<white>番茄生长阶段 III"
-  itemname: "<white>Tomato Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>토마토 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/tomato/stage_3
@@ -91,7 +91,7 @@ tomato_stage_3:
 tomato_stage_4:
   template: block_sound/crop
   # itemname: "<white>番茄生长阶段 IV"
-  itemname: "<white>Tomato Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>토마토 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/tomato/stage_4
@@ -107,7 +107,7 @@ tomato_stage_4:
 tomato_stage_golden:
   template: block_sound/crop
   # itemname: "<white>黄金番茄作物"
-  itemname: "<white>Tomato Stage Golden"
+  itemname: "<gradient:#FFF8DC:#FFD700:#FFF8DC>황금 토마토 작물</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/tomato/stage_golden
@@ -123,7 +123,7 @@ tomato_stage_golden:
 tomato_stage_variation:
   template: block_sound/crop
   # itemname: "<white>变异番茄作物"
-  itemname: "<white>Tomato Stage Variation"
+  itemname: "<gradient:#C084FC:#22D3EE:#FDE68A>변이 토마토 작물</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/tomato/stage_variation

@@ -1,6 +1,6 @@
 sprinkler_1:
   # itemname: "<white>初级洒水器"
-  itemname: "<white>Primitive Sprinkler"
+  itemname: "<gradient:#E0F2FE:#38BDF8:#E0F2FE>초급 스프링클러</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/sprinkler/sprinkler_1
@@ -21,7 +21,7 @@ sprinkler_1:
 
 sprinkler_2:
   # itemname: "<white>优质洒水器"
-  itemname: "<white>Quality Sprinkler"
+  itemname: "<gradient:#DBEAFE:#2563EB:#DBEAFE>고급 스프링클러</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/sprinkler/sprinkler_2
@@ -42,7 +42,7 @@ sprinkler_2:
 
 sprinkler_3:
   # itemname: "<white>高级洒水器"
-  itemname: "<white>Advanced Sprinkler"
+  itemname: "<gradient:#FDE68A:#F59E0B:#FDE68A>상급 스프링클러</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/sprinkler/sprinkler_3
@@ -63,7 +63,7 @@ sprinkler_3:
 
 sprinkler_4:
   # itemname: "<white>现代洒水器"
-  itemname: "<white>Modern Sprinkler"
+  itemname: "<gradient:#E9D5FF:#7C3AED:#67E8F9>현대식 스프링클러</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/sprinkler/sprinkler_4

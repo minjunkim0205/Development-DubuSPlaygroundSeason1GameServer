@@ -1,27 +1,27 @@
 warped_glow_fungus_seeds:
   # itemname: "<white>诡异发光菌种子"
-  itemname: "<white>Warped Glow Fungus Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>뒤틀린 발광 버섯 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus_seeds
 
 warped_glow_fungus:
   # itemname: "<white>诡异发光菌"
-  itemname: "<white>Warped Glow Fungus"
+  itemname: "<gradient:#80FFDB:#5390D9:#80FFDB>뒤틀린 발광 버섯</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus
 
 warped_glow_fungus_silver_star:
   # itemname: "<white>诡异发光菌（银星）"
-  itemname: "<white>Warped Glow Fungus (Silver Star)"
+  itemname: "<gradient:#80FFDB:#5390D9:#80FFDB>뒤틀린 발광 버섯</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus_silver_star
 
 warped_glow_fungus_golden_star:
   # itemname: "<white>诡异发光菌（金星）"
-  itemname: "<white>Warped Glow Fungus (Golden Star)"
+  itemname: "<gradient:#80FFDB:#5390D9:#80FFDB>뒤틀린 발광 버섯</gradient> <#FFD700>(금별)</#FFD700>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/warped_glow_fungus/warped_glow_fungus_golden_star
@@ -29,7 +29,7 @@ warped_glow_fungus_golden_star:
 warped_glow_fungus_stage_1:
   template: block_sound/crop
   # itemname: "<white>诡异发光菌生长阶段 I"
-  itemname: "<white>Warped Glow Fungus Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>뒤틀린 발광 버섯 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/warped_glow_fungus/stage_1
@@ -45,7 +45,7 @@ warped_glow_fungus_stage_1:
 warped_glow_fungus_stage_2:
   template: block_sound/crop
   # itemname: "<white>诡异发光菌生长阶段 II"
-  itemname: "<white>Warped Glow Fungus Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>뒤틀린 발광 버섯 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/warped_glow_fungus/stage_2
@@ -61,7 +61,7 @@ warped_glow_fungus_stage_2:
 warped_glow_fungus_stage_3:
   template: block_sound/crop
   # itemname: "<white>诡异发光菌生长阶段 III"
-  itemname: "<white>Warped Glow Fungus Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>뒤틀린 발광 버섯 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/warped_glow_fungus/stage_3
@@ -72,4 +72,4 @@ warped_glow_fungus_stage_3:
       model: customcrops:block/crop/warped_glow_fungus/stage_3
       hardness: 0
       drop:
-        silktouch: false  
+        silktouch: false

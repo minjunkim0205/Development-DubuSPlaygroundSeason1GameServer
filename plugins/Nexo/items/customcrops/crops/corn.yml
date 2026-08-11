@@ -1,27 +1,27 @@
 corn_seeds:
   # itemname: "<white>玉米种子"
-  itemname: "<white>Corn Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>옥수수 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/corn/corn_seeds
 
 corn:
   # itemname: "<white>玉米"
-  itemname: "<white>Corn"
+  itemname: "<gradient:#FFF7A8:#F4C430:#6DBE45>옥수수</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/corn/corn
 
 corn_silver_star:
   # itemname: "<white>玉米（银星）"
-  itemname: "<white>Corn (Silver Star)"
+  itemname: "<gradient:#FFF7A8:#F4C430:#6DBE45>옥수수</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/corn/corn_silver_star
 
 corn_golden_star:
   # itemname: "<white>玉米（金星）"
-  itemname: "<white>Corn (Golden Star)"
+  itemname: "<gradient:#FFF7A8:#F4C430:#6DBE45>옥수수</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/corn/corn_golden_star
@@ -29,7 +29,7 @@ corn_golden_star:
 corn_stage_1:
   template: block_sound/crop
   # itemname: "<white>玉米生长阶段 I"
-  itemname: "<white>Corn Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>옥수수 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/corn/stage_1
@@ -45,7 +45,7 @@ corn_stage_1:
 corn_stage_2:
   template: block_sound/crop
   # itemname: "<white>玉米生长阶段 II"
-  itemname: "<white>Corn Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>옥수수 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/corn/stage_2
@@ -61,7 +61,7 @@ corn_stage_2:
 corn_stage_3:
   template: block_sound/crop
   # itemname: "<white>玉米生长阶段 III"
-  itemname: "<white>Corn Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>옥수수 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/corn/stage_3
@@ -77,7 +77,7 @@ corn_stage_3:
 corn_stage_4:
   template: block_sound/crop
   # itemname: "<white>玉米生长阶段 IV"
-  itemname: "<white>Corn Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>옥수수 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/corn/stage_4

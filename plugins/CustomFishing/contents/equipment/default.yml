@@ -1,14 +1,14 @@
 angler_helmet:
   material: IRON_HELMET
   display:
-    name: "<b><#A0D2DB>Angler's Helmet</b>"
+    name: "<b><#A0D2DB>낚시꾼의 투구</b>"
     lore:
       - ''
-      - '<#7FFFD4>Description:'
-      - '<gray> - A sturdy helmet that slightly increases concentration when fishing.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 낚시 중 집중력을 약간 높여 주는 튼튼한 투구입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Slightly reduces fishing difficulty.'
+      - '<#FFD700>효과:'
+      - '<gray> - 낚시 난이도를 약간 낮춥니다.'
   custom-model-data: 50010 # Example
   effects:
     effect_1:
@@ -18,14 +18,14 @@ angler_helmet:
 deep_sea_chestplate:
   material: DIAMOND_CHESTPLATE
   display:
-    name: "<b><#3A6EA5>Deep Sea Chestplate</b>"
+    name: "<b><#3A6EA5>심해 흉갑</b>"
     lore:
       - ''
-      - '<#7FFFD4>Description:'
-      - '<gray> - Reinforced chestplate that helps attract larger fish.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 더 큰 물고기를 끌어들이는 데 도움을 주는 강화 흉갑입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Increases the chance of catching silver star fish.'
+      - '<#FFD700>효과:'
+      - '<gray> - 은별 물고기를 잡을 확률이 증가합니다.'
   custom-model-data: 50011
   effects:
     effect_1:
@@ -36,14 +36,14 @@ deep_sea_chestplate:
 swift_leggings:
   material: LEATHER_LEGGINGS
   display:
-    name: "<b><#C0C0C0>Swift Leggings</b>"
+    name: "<b><#C0C0C0>민첩한 각반</b>"
     lore:
       - ''
-      - '<#7FFFD4>Description:'
-      - '<gray> - Lightweight leggings that help reduce the waiting time for a fish to bite.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 물고기가 미끼를 물기까지의 시간을 줄여 주는 가벼운 각반입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Slightly reduces waiting time.'
+      - '<#FFD700>효과:'
+      - '<gray> - 입질 대기 시간을 약간 줄입니다.'
   custom-model-data: 50012 # Example
   effects:
     effect_1:
@@ -53,14 +53,14 @@ swift_leggings:
 sturdy_boots:
   material: GOLDEN_BOOTS
   display:
-    name: "<b><#FFD700>Sturdy Boots</b>"
+    name: "<b><#FFD700>튼튼한 장화</b>"
     lore:
       - ''
-      - '<#7FFFD4>Description:'
-      - '<gray> - Boots that help you stand firmer, making the game a little easier.'
+      - '<#7FFFD4>설명:'
+      - '<gray> - 더 안정적으로 버틸 수 있게 해 낚시를 조금 쉽게 만드는 장화입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Slightly reduces game time (making it easier).'
+      - '<#FFD700>효과:'
+      - '<gray> - 게임 시간을 약간 줄여 더 쉽게 만듭니다.'
   custom-model-data: 50013 # Example
   effects:
     effect_1:

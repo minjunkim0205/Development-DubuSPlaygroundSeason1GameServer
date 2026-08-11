@@ -17,22 +17,21 @@ BOOK:
         action_message:
           type: message
           value:
-            - 'This bait can only be used on <#7B68EE>Magical Fishing Rod'
+            - '이 미끼는 <#7B68EE>마법 낚싯대에만 사용할 수 있습니다'
 
 simple_bait:
   material: paper
   display:
-    name: '<b><#00BFFF>Simple lures'
+    name: '<b><#00BFFF>간단한 미끼'
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray>Made from natural ingredients, it attracts'
-      - '<gray>fish in a calm and steady manner. It''s the'
-      - '<gray>go-to choice for those who prefer a '
-      - '<gray>straightforward and reliable fishing experience.'
+      - '<#7FFFD4>설명:'
+      - '<gray>천연 재료로 만들어져 물고기를'
+      - '<gray>차분하고 안정적으로 끌어들입니다.'
+      - '<gray>간단하고 믿을 수 있는 낚시 경험에 적합합니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Reduce fishing difficulty'
+      - '<#FFD700>효과:'
+      - '<gray> - 낚시 난이도 감소'
       - ''
   custom-model-data: 50001
   effects:
@@ -43,19 +42,16 @@ simple_bait:
 magnetic_bait:
   material: paper
   display:
-    name: '<b><red>Magn<blue>etic <gray>lures'
+    name: '<b><red>자<blue>석 <gray>미끼'
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray>Its radiant shimmer and unique energy pulse'
-      - '<gray>prove irresistible to curious fish, drawing'
-      - '<gray>them in with unprecedented speed. This is '
-      - '<gray>not just a bait, it''s a spectacle that fish'
-      - '<gray>can''t help but investigate.'
+      - '<#7FFFD4>설명:'
+      - '<gray>빛나는 반짝임과 독특한 에너지 파동으로'
+      - '<gray>호기심 많은 물고기를 빠르게 끌어들입니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Reduce wait time'
-      - '<gray> - More time for fishing'
+      - '<#FFD700>효과:'
+      - '<gray> - 입질 대기 시간 감소'
+      - '<gray> - 낚시 게임 시간 증가'
       - ''
   custom-model-data: 50002
   effects:
@@ -69,18 +65,16 @@ magnetic_bait:
 wild_bait:
   material: paper
   display:
-    name: '<b><#2E8B57>Wild lures'
+    name: '<b><#2E8B57>야생 미끼'
     lore:
       - ''
-      - '<#7FFFD4>Desciption:'
-      - '<gray>Crafted for the fearless angler, the Wild '
-      - '<gray>Attraction Bait is an infusion of potent '
-      - '<gray>natural ingredients, exuding an irresistible'
-      - '<gray>aroma for large aquatic beasts.'
+      - '<#7FFFD4>설명:'
+      - '<gray>두려움 없는 낚시꾼을 위해 만들어진 미끼입니다.'
+      - '<gray>강력한 천연 재료의 향으로 큰 물고기를 유인합니다.'
       - ''
-      - '<#FFD700>Effects:'
-      - '<gray> - Increase fishing difficulty'
-      - '<gray> - Increase the size of fish caught'
+      - '<#FFD700>효과:'
+      - '<gray> - 낚시 난이도 증가'
+      - '<gray> - 잡히는 물고기 크기 증가'
       - ''
   custom-model-data: 50003
   effects:

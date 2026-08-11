@@ -1,27 +1,27 @@
 crimson_bracket_fungus_seeds:
   # itemname: "<white>绯红栓菌种子"
-  itemname: "<white>Crimson Bracket Fungus Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>진홍빛 괄호버섯 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus_seeds
 
 crimson_bracket_fungus:
   # itemname: "<white>绯红栓菌"
-  itemname: "<white>Crimson Bracket Fungus"
+  itemname: "<gradient:#FF8A80:#B71C1C:#FFCCBC>진홍빛 괄호버섯</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus
 
 crimson_bracket_fungus_silver_star:
   # itemname: "<white>绯红栓菌（银星）"
-  itemname: "<white>Crimson Bracket Fungus (Silver Star)"
+  itemname: "<gradient:#FF8A80:#B71C1C:#FFCCBC>진홍빛 괄호버섯</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus_silver_star
 
 crimson_bracket_fungus_golden_star:
   # itemname: "<white>绯红栓菌（金星）"
-  itemname: "<white>Crimson Bracket Fungus (Golden Star)"
+  itemname: "<gradient:#FF8A80:#B71C1C:#FFCCBC>진홍빛 괄호버섯</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/crimson_bracket_fungus/crimson_bracket_fungus_golden_star
@@ -29,7 +29,7 @@ crimson_bracket_fungus_golden_star:
 crimson_bracket_fungus_stage_1:
   template: block_sound/crop
   # itemname: "<white>绯红栓菌生长阶段 I"
-  itemname: "<white>Crimson Bracket Fungus Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>진홍빛 괄호버섯 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/crimson_bracket_fungus/stage_1
@@ -45,7 +45,7 @@ crimson_bracket_fungus_stage_1:
 crimson_bracket_fungus_stage_2:
   template: block_sound/crop
   # itemname: "<white>绯红栓菌生长阶段 II"
-  itemname: "<white>Crimson Bracket Fungus Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>진홍빛 괄호버섯 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/crimson_bracket_fungus/stage_2
@@ -61,7 +61,7 @@ crimson_bracket_fungus_stage_2:
 crimson_bracket_fungus_stage_3:
   template: block_sound/crop
   # itemname: "<white>绯红栓菌生长阶段 III"
-  itemname: "<white>Crimson Bracket Fungus Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>진홍빛 괄호버섯 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/crimson_bracket_fungus/stage_3
@@ -72,4 +72,4 @@ crimson_bracket_fungus_stage_3:
       model: customcrops:block/crop/crimson_bracket_fungus/stage_3
       hardness: 0
       drop:
-        silktouch: false  
+        silktouch: false

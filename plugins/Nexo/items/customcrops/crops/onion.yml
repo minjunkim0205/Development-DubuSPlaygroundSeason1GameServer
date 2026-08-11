@@ -1,27 +1,27 @@
 onion_seeds:
   # itemname: "<white>洋葱种子"
-  itemname: "<white>Onion Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>양파 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/onion/onion_seeds
 
 onion:
   # itemname: "<white>洋葱"
-  itemname: "<white>Onion"
+  itemname: "<gradient:#FDE2E4:#C08497:#FDE2E4>양파</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/onion/onion
 
 onion_silver_star:
   # itemname: "<white>洋葱（银星）"
-  itemname: "<white>Onion (Silver Star)"
+  itemname: "<gradient:#FDE2E4:#C08497:#FDE2E4>양파</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/onion/onion_silver_star
 
 onion_golden_star:
   # itemname: "<white>洋葱（金星）"
-  itemname: "<white>Onion (Golden Star)"
+  itemname: "<gradient:#FDE2E4:#C08497:#FDE2E4>양파</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/onion/onion_golden_star
@@ -29,7 +29,7 @@ onion_golden_star:
 onion_stage_1:
   template: block_sound/crop
   # itemname: "<white>洋葱生长阶段 I"
-  itemname: "<white>Onion Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>양파 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/onion/stage_1
@@ -45,7 +45,7 @@ onion_stage_1:
 onion_stage_2:
   template: block_sound/crop
   # itemname: "<white>洋葱生长阶段 II"
-  itemname: "<white>Onion Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>양파 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/onion/stage_2
@@ -61,7 +61,7 @@ onion_stage_2:
 onion_stage_3:
   template: block_sound/crop
   # itemname: "<white>洋葱生长阶段 III"
-  itemname: "<white>Onion Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>양파 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/onion/stage_3
@@ -72,4 +72,4 @@ onion_stage_3:
       model: customcrops:block/crop/onion/stage_3
       hardness: 0
       drop:
-        silktouch: false  
+        silktouch: false

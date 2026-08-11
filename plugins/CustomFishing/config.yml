@@ -56,7 +56,7 @@ mechanics:
             actions:
               actionbar_action:
                 type: "actionbar"
-                value: "<#FFD700>[New Record]</#FFD700> <#FFFFF0>You caught a(n) {nick} measuring <#FFA500>{size_formatted}cm</#FFA500> long!</#FFFFF0> <#C0C0C0>(Previous record: {previous_record_formatted}cm)</#C0C0C0>"
+                value: "<#FFD700>[신기록]</#FFD700> <#FFFFF0>{nick}을(를) 낚았습니다! 크기: <#FFA500>{size_formatted}cm</#FFA500></#FFFFF0> <#C0C0C0>(이전 기록: {previous_record_formatted}cm)</#C0C0C0>"
               sound_action:
                 type: "sound"
                 value:
@@ -86,18 +86,18 @@ mechanics:
             actions:
               actionbar_action:
                 type: "actionbar"
-                value: "<gray>You caught a(n) {nick} measuring <#F5F5F5>{size_formatted}cm</#F5F5F5> long!</gray> <#C0C0C0>(Best record: {record_formatted}cm)</#C0C0C0>"
+                value: "<gray>{nick}을(를) 낚았습니다! 크기: <#F5F5F5>{size_formatted}cm</#F5F5F5></gray> <#C0C0C0>(최고 기록: {record_formatted}cm)</#C0C0C0>"
         title_action:
           type: "random-title"
           value:
             titles:
-            - "<green>GG!</green>"
-            - "<green>Good Job!</green>"
+            - "<green>좋아요!</green>"
+            - "<green>잘했습니다!</green>"
             subtitles:
-            - "You caught a(n) {nick}"
-            - "Whoa! Nice catch!"
-            - "Oh {nick}, here we go!"
-            - "Let's see what it is!"
+            - "{nick}을(를) 낚았습니다"
+            - "오! 멋진 낚시였습니다!"
+            - "{nick}, 갑니다!"
+            - "무엇인지 확인해 봅시다!"
             fade-in: 20
             stay: 30
             fade-out: 10
@@ -107,12 +107,12 @@ mechanics:
           type: "random-title"
           value:
             titles:
-            - "<red>Stay focused!</red>"
-            - "<red>What a pity!</red>"
-            - "<red>Try again next time!</red>"
-            - "<red>Bad luck!</red>"
+            - "<red>집중하세요!</red>"
+            - "<red>아깝습니다!</red>"
+            - "<red>다음에 다시 도전하세요!</red>"
+            - "<red>운이 없었습니다!</red>"
             subtitles:
-            - "The fish got away..."
+            - "물고기가 도망쳤습니다..."
             fade-in: 20
             stay: 30
             fade-out: 10
@@ -154,7 +154,7 @@ mechanics:
   fishing-bag:
     enable: true
     # Title of the fishing bag container
-    bag-title: "<blue>{player}'s Fishing Bag</blue>"
+    bag-title: "<blue>{player}의 낚시 가방</blue>"
     # Other whitelist items
     whitelist-items:
     - "fishing_rod"
@@ -180,7 +180,7 @@ mechanics:
         type: "hologram"
         value:
           duration: 40
-          text: "{nick} <#B0E0E6><b>has been stored in the bag</#B0E0E6>"
+          text: "{nick} <#B0E0E6><b>가방에 보관되었습니다</#B0E0E6>"
           position: "other"
           y: 1
     # Actions triggered when the fishing bag is full
@@ -197,10 +197,10 @@ mechanics:
           actions:
             message_action:
               type: "message"
-              value: "<#EEE8AA>[Fishing Bag]</#EEE8AA> Your fishing bag is full."
+              value: "<#EEE8AA>[낚시 가방]</#EEE8AA> 낚시 가방이 가득 찼습니다."
   market:
     # Title for the market GUI
-    title: "<gradient:#A52A2A:#800000:#A52A2A>Fish Market</gradient>"
+    title: "<gradient:#A52A2A:#800000:#A52A2A>생선 시장</gradient>"
     # Enable limitations
     limitation:
       enable: true
@@ -246,9 +246,9 @@ mechanics:
       allow-icon:
         material: "IRON_BLOCK"
         display:
-          name: "<#00CED1><b>● <!b>Sell the fish"
+          name: "<#00CED1><b>● <!b>물고기 판매"
           lore:
-          - "<font:uniform><gradient:#E6E6FA:#48D1CC:#E6E6FA>You will earn <green>{money_formatted} coins</green> from the fish in your inventory and bag</gradient></font>"
+          - "<font:uniform><gradient:#E6E6FA:#48D1CC:#E6E6FA>인벤토리와 가방의 물고기 판매 시 <green>{money_formatted} 코인</green>을 획득합니다</gradient></font>"
         action:
           sound_action:
             type: "sound"
@@ -259,7 +259,7 @@ mechanics:
               pitch: 1
           message_action:
             type: "message"
-            value: "You earned {money_formatted} coins from the fish! You can still earn {rest_formatted} more coins from the market today."
+            value: "물고기를 팔아 {money_formatted} 코인을 획득했습니다! 오늘 시장에서 아직 {rest_formatted} 코인을 더 벌 수 있습니다."
           # Requires Vault and an economy plugin
           money_action:
             type: "give-money"
@@ -271,9 +271,9 @@ mechanics:
       deny-icon:
         material: "REDSTONE_BLOCK"
         display:
-          name: "<red><b>● <!b>Trade Denied"
+          name: "<red><b>● <!b>거래 거부"
           lore:
-          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>No items available to sell!</gradient></font>"
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>판매할 아이템이 없습니다!</gradient></font>"
         action:
           sound_action:
             type: "sound"
@@ -285,9 +285,9 @@ mechanics:
       limit-icon:
         material: "REDSTONE_BLOCK"
         display:
-          name: "<red><b>● <!b>Trade Denied"
+          name: "<red><b>● <!b>거래 거부"
           lore:
-          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>The total value exceeds the daily limit for earnings!</gradient></font>"
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>총 판매 금액이 일일 수익 제한을 초과합니다!</gradient></font>"
         action:
           sound_action:
             type: "sound"
@@ -302,9 +302,9 @@ mechanics:
       allow-icon:
         material: "IRON_BLOCK"
         display:
-          name: "<#00CED1><b>● <!b>Sell the fish"
+          name: "<#00CED1><b>● <!b>물고기 판매"
           lore:
-          - "<font:uniform><gradient:#E6E6FA:#48D1CC:#E6E6FA>You will earn <green>{money_formatted} coins</green> from the fish</gradient></font>"
+          - "<font:uniform><gradient:#E6E6FA:#48D1CC:#E6E6FA>물고기 판매 시 <green>{money_formatted} 코인</green>을 획득합니다</gradient></font>"
         action:
           sound_action:
             type: "sound"
@@ -315,7 +315,7 @@ mechanics:
               pitch: 1
           message_action:
             type: "message"
-            value: "You earned {money_formatted} coins from the fish! You can still earn {rest_formatted} more coins from the market today."
+            value: "물고기를 팔아 {money_formatted} 코인을 획득했습니다! 오늘 시장에서 아직 {rest_formatted} 코인을 더 벌 수 있습니다."
           money_action:
             type: "give-money"
             value: "{money}"
@@ -326,9 +326,9 @@ mechanics:
       deny-icon:
         material: "REDSTONE_BLOCK"
         display:
-          name: "<red><b>● <!b>Trade Denied"
+          name: "<red><b>● <!b>거래 거부"
           lore:
-          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>No items available to sell!</gradient></font>"
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>판매할 아이템이 없습니다!</gradient></font>"
         action:
           sound_action:
             type: "sound"
@@ -340,9 +340,9 @@ mechanics:
       limit-icon:
         material: "REDSTONE_BLOCK"
         display:
-          name: "<red><b>● <!b>Trade Denied"
+          name: "<red><b>● <!b>거래 거부"
           lore:
-          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>The total value exceeds the daily limit for earnings!</gradient></font>"
+          - "<font:uniform><gradient:#E6E6FA:red:#E6E6FA>총 판매 금액이 일일 수익 제한을 초과합니다!</gradient></font>"
         action:
           sound_action:
             type: "sound"
@@ -364,7 +364,7 @@ mechanics:
         symbol: "C"
         material: "RED_STAINED_GLASS_PANE"
         display:
-          name: "<red>Close"
+          name: "<red>닫기"
         # Add actions on click
         action:
           action_1:
@@ -456,7 +456,7 @@ other-settings:
   # Custom durability display format
   custom-durability-format:
   - ""
-  - "<gray>Durability</gray><white>: {dur} <gray>/</gray> {max}</white>"
+  - "<gray>내구도</gray><white>: {dur} <gray>/</gray> {max}</white>"
   # Offset characters
   # Do not edit unless you know what you are doing
   offset-characters:

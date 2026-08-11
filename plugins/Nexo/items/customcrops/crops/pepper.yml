@@ -1,34 +1,34 @@
 pepper_seeds:
   # itemname: "<white>辣椒种子"
-  itemname: "<white>Pepper Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>고추 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pepper/pepper_seeds
 
 pepper:
   # itemname: "<white>辣椒"
-  itemname: "<white>Pepper"
+  itemname: "<gradient:#FF6B6B:#C1121F:#FFD166>고추</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pepper/pepper
 
 pepper_silver_star:
   # itemname: "<white>辣椒（银星）"
-  itemname: "<white>Pepper (Silver Star)"
+  itemname: "<gradient:#FF6B6B:#C1121F:#FFD166>고추</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pepper/pepper_silver_star
 
 pepper_golden_star:
   # itemname: "<white>辣椒（金星）"
-  itemname: "<white>Pepper (Golden Star)"
+  itemname: "<gradient:#FF6B6B:#C1121F:#FFD166>고추</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pepper/pepper_golden_star
 
 pepper:
   # itemname: "<white>辣椒"
-  itemname: "<white>Pepper"
+  itemname: "<gradient:#FF6B6B:#C1121F:#FFD166>고추</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pepper/pepper
@@ -36,7 +36,7 @@ pepper:
 pepper_stage_1:
   template: block_sound/crop
   # itemname: "<white>辣椒生长阶段 I"
-  itemname: "<white>Pepper Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고추 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pepper/stage_1
@@ -52,7 +52,7 @@ pepper_stage_1:
 pepper_stage_2:
   template: block_sound/crop
   # itemname: "<white>辣椒生长阶段 II"
-  itemname: "<white>Pepper Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고추 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pepper/stage_2
@@ -68,7 +68,7 @@ pepper_stage_2:
 pepper_stage_3:
   template: block_sound/crop
   # itemname: "<white>辣椒生长阶段 III"
-  itemname: "<white>Pepper Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고추 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pepper/stage_3
@@ -84,7 +84,7 @@ pepper_stage_3:
 pepper_stage_4:
   template: block_sound/crop
   # itemname: "<white>辣椒生长阶段 IV"
-  itemname: "<white>Pepper Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고추 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pepper/stage_4

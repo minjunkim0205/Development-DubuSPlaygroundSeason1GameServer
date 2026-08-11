@@ -1,27 +1,27 @@
 cucumber_seeds:
   # itemname: "<white>黄瓜种子"
-  itemname: "<white>Cucumber Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>오이 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/cucumber/cucumber_seeds
 
 cucumber:
   # itemname: "<white>黄瓜"
-  itemname: "<white>Cucumber"
+  itemname: "<gradient:#D9F99D:#2E8B57:#D9F99D>오이</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/cucumber/cucumber
 
 cucumber_silver_star:
   # itemname: "<white>黄瓜（银星）"
-  itemname: "<white>Cucumber (Silver Star)"
+  itemname: "<gradient:#D9F99D:#2E8B57:#D9F99D>오이</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/cucumber/cucumber_silver_star
 
 cucumber_golden_star:
   # itemname: "<white>黄瓜（金星）"
-  itemname: "<white>Cucumber (Golden Star)"
+  itemname: "<gradient:#D9F99D:#2E8B57:#D9F99D>오이</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/cucumber/cucumber_golden_star
@@ -29,7 +29,7 @@ cucumber_golden_star:
 cucumber_stage_1:
   template: block_sound/crop
   # itemname: "<white>黄瓜生长阶段 I"
-  itemname: "<white>Cucumber Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>오이 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/cucumber/stage_1
@@ -45,7 +45,7 @@ cucumber_stage_1:
 cucumber_stage_2:
   template: block_sound/crop
   # itemname: "<white>黄瓜生长阶段 II"
-  itemname: "<white>Cucumber Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>오이 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/cucumber/stage_2
@@ -61,7 +61,7 @@ cucumber_stage_2:
 cucumber_stage_3:
   template: block_sound/crop
   # itemname: "<white>黄瓜生长阶段 III"
-  itemname: "<white>Cucumber Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>오이 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/cucumber/stage_3
@@ -77,7 +77,7 @@ cucumber_stage_3:
 cucumber_stage_4:
   template: block_sound/crop
   # itemname: "<white>黄瓜生长阶段 IV"
-  itemname: "<white>Cucumber Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>오이 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/cucumber/stage_4
@@ -93,7 +93,7 @@ cucumber_stage_4:
 cucumber_stage_5:
   template: block_sound/crop
   # itemname: "<white>黄瓜生长阶段 V"
-  itemname: "<white>Cucumber Stage V"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>오이 성장 단계 V</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/cucumber/stage_5

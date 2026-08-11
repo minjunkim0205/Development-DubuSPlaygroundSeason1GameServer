@@ -1,27 +1,27 @@
 lettuce_seeds:
   # itemname: "<white>生菜种子"
-  itemname: "<white>Lettuce Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>상추 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/lettuce/lettuce_seeds
 
 lettuce:
   # itemname: "<white>生菜"
-  itemname: "<white>Lettuce"
+  itemname: "<gradient:#ECFCCB:#65A30D:#ECFCCB>상추</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/lettuce/lettuce
 
 lettuce_silver_star:
   # itemname: "<white>生菜（银星）"
-  itemname: "<white>Lettuce (Silver Star)"
+  itemname: "<gradient:#ECFCCB:#65A30D:#ECFCCB>상추</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/lettuce/lettuce_silver_star
 
 lettuce_golden_star:
   # itemname: "<white>生菜（金星）"
-  itemname: "<white>Lettuce (Golden Star)"
+  itemname: "<gradient:#ECFCCB:#65A30D:#ECFCCB>상추</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/lettuce/lettuce_golden_star
@@ -29,7 +29,7 @@ lettuce_golden_star:
 lettuce_stage_1:
   template: block_sound/crop
   # itemname: "<white>生菜生长阶段 I"
-  itemname: "<white>Lettuce Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>상추 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/lettuce/stage_1
@@ -45,7 +45,7 @@ lettuce_stage_1:
 lettuce_stage_2:
   template: block_sound/crop
   # itemname: "<white>生菜生长阶段 II"
-  itemname: "<white>Lettuce Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>상추 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/lettuce/stage_2
@@ -61,7 +61,7 @@ lettuce_stage_2:
 lettuce_stage_3:
   template: block_sound/crop
   # itemname: "<white>生菜生长阶段 III"
-  itemname: "<white>Lettuce Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>상추 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/lettuce/stage_3
@@ -77,7 +77,7 @@ lettuce_stage_3:
 lettuce_stage_4:
   template: block_sound/crop
   # itemname: "<white>生菜生长阶段 IV"
-  itemname: "<white>Lettuce Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>상추 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/lettuce/stage_4

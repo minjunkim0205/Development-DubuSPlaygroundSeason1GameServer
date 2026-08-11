@@ -1,27 +1,27 @@
 virelia_seeds:
   # itemname: "<white>堇幽果种子"
-  itemname: "<white>Virelia Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>바이렐리아 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/virelia/virelia_seeds
 
 virelia:
   # itemname: "<white>堇幽果"
-  itemname: "<white>Virelia"
+  itemname: "<gradient:#E0C3FC:#8E44AD:#B8F7D4>바이렐리아</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/virelia/virelia
 
 virelia_silver_star:
   # itemname: "<white>堇幽果（银星）"
-  itemname: "<white>Virelia (Silver Star)"
+  itemname: "<gradient:#E0C3FC:#8E44AD:#B8F7D4>바이렐리아</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/virelia/virelia_silver_star
 
 virelia_golden_star:
   # itemname: "<white>堇幽果（金星）"
-  itemname: "<white>Virelia (Golden Star)"
+  itemname: "<gradient:#E0C3FC:#8E44AD:#B8F7D4>바이렐리아</gradient> <#FFD700>(금별)</#FFD700>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/virelia/virelia_golden_star
@@ -29,7 +29,7 @@ virelia_golden_star:
 virelia_stage_1:
   template: block_sound/crop
   # itemname: "<white>堇幽果生长阶段 I"
-  itemname: "<white>Virelia Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐리아 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelia/stage_1
@@ -45,7 +45,7 @@ virelia_stage_1:
 virelia_stage_2:
   template: block_sound/crop
   # itemname: "<white>堇幽果生长阶段 II"
-  itemname: "<white>Virelia Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐리아 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelia/stage_2
@@ -61,7 +61,7 @@ virelia_stage_2:
 virelia_stage_3:
   template: block_sound/crop
   # itemname: "<white>堇幽果生长阶段 III"
-  itemname: "<white>Virelia Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐리아 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelia/stage_3
@@ -77,7 +77,7 @@ virelia_stage_3:
 virelia_stage_4:
   template: block_sound/crop
   # itemname: "<white>堇幽果生长阶段 IV"
-  itemname: "<white>Virelia Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐리아 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelia/stage_4

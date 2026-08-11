@@ -1,27 +1,27 @@
 virelo_seeds:
   # itemname: "<white>幽碧兰种子"
-  itemname: "<white>Virelo Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>바이렐로 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/virelo/virelo_seeds
 
 virelo:
   # itemname: "<white>幽碧兰"
-  itemname: "<white>Virelo"
+  itemname: "<gradient:#B8F7D4:#00A896:#E0C3FC>바이렐로</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/virelo/virelo
 
 virelo_silver_star:
   # itemname: "<white>幽碧兰（银星）"
-  itemname: "<white>virelo (Silver Star)"
+  itemname: "<gradient:#B8F7D4:#00A896:#E0C3FC>바이렐로</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/virelo/virelo_silver_star
 
 virelo_golden_star:
   # itemname: "<white>幽碧兰（金星）"
-  itemname: "<white>virelo (Golden Star)"
+  itemname: "<gradient:#B8F7D4:#00A896:#E0C3FC>바이렐로</gradient> <#FFD700>(금별)</#FFD700>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/virelo/virelo_golden_star
@@ -29,7 +29,7 @@ virelo_golden_star:
 virelo_stage_1:
   template: block_sound/crop
   # itemname: "<white>幽碧兰生长阶段 I"
-  itemname: "<white>Virelo Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐로 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelo/stage_1
@@ -45,7 +45,7 @@ virelo_stage_1:
 virelo_stage_2:
   template: block_sound/crop
   # itemname: "<white>幽碧兰生长阶段 II"
-  itemname: "<white>Virelo Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐로 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelo/stage_2
@@ -61,7 +61,7 @@ virelo_stage_2:
 virelo_stage_3:
   template: block_sound/crop
   # itemname: "<white>幽碧兰生长阶段 III"
-  itemname: "<white>Virelo Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>바이렐로 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/virelo/stage_3
@@ -72,4 +72,4 @@ virelo_stage_3:
       model: customcrops:block/crop/virelo/stage_3
       hardness: 0
       drop:
-        silktouch: false  
+        silktouch: false

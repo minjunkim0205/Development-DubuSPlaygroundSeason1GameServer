@@ -1,27 +1,27 @@
 pitaya_seeds:
   # itemname: "<white>火龙果种子"
-  itemname: "<white>Pitaya Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>용과 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/pitaya/pitaya_seeds
 
 pitaya:
   # itemname: "<white>火龙果"
-  itemname: "<white>Pitaya"
+  itemname: "<gradient:#FFB3C6:#DB2777:#FDE68A>용과</gradient>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/pitaya/pitaya
 
 pitaya_silver_star:
   # itemname: "<white>火龙果（银星）"
-  itemname: "<white>Pitaya (Silver Star)"
+  itemname: "<gradient:#FFB3C6:#DB2777:#FDE68A>용과</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/pitaya/pitaya_silver_star
 
 pitaya_golden_star:
   # itemname: "<white>火龙果（金星）"
-  itemname: "<white>Pitaya (Golden Star)"
+  itemname: "<gradient:#FFB3C6:#DB2777:#FDE68A>용과</gradient> <#FFD700>(금별)</#FFD700>"
   material: APPLE
   Pack:
     texture: customcrops:item/crop/pitaya/pitaya_golden_star
@@ -29,7 +29,7 @@ pitaya_golden_star:
 pitaya_stage_1:
   template: block_sound/crop
   # itemname: "<white>火龙果生长阶段 I"
-  itemname: "<white>Pitaya Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>용과 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pitaya/stage_1
@@ -45,7 +45,7 @@ pitaya_stage_1:
 pitaya_stage_2:
   template: block_sound/crop
   # itemname: "<white>火龙果生长阶段 II"
-  itemname: "<white>Pitaya Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>용과 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pitaya/stage_2
@@ -61,7 +61,7 @@ pitaya_stage_2:
 pitaya_stage_3:
   template: block_sound/crop
   # itemname: "<white>火龙果生长阶段 III"
-  itemname: "<white>Pitaya Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>용과 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pitaya/stage_3
@@ -77,7 +77,7 @@ pitaya_stage_3:
 pitaya_stage_4:
   template: block_sound/crop
   # itemname: "<white>火龙果生长阶段 IV"
-  itemname: "<white>Pitaya Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>용과 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pitaya/stage_4
@@ -93,7 +93,7 @@ pitaya_stage_4:
 pitaya_stage_5:
   template: block_sound/crop
   # itemname: "<white>火龙果生长阶段 V"
-  itemname: "<white>Pitaya Stage V"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>용과 성장 단계 V</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pitaya/stage_5
@@ -109,7 +109,7 @@ pitaya_stage_5:
 pitaya_stage_6:
   template: block_sound/crop
   # itemname: "<white>火龙果生长阶段 VI"
-  itemname: "<white>Pitaya Stage VI"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>용과 성장 단계 VI</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/pitaya/stage_6

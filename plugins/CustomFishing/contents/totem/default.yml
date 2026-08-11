@@ -32,19 +32,19 @@ double_loot_totem:
         action_1:
           type: message
           value:
-            - '<#BA55D3>[Totem]</#BA55D3> <#F5FFFA>Hold a nautilus shell in main hand to activate the totem.'
+            - '<#BA55D3>[토템]</#BA55D3> <#F5FFFA>토템을 활성화하려면 주 손에 앵무조개 껍데기를 드세요.'
   events:
     timer:
       actionbar_action:
         type: actionbar-nearby
         value:
-          actionbar: '<#BA55D3>[Double Loot Totem]</#BA55D3> Time Left: {time_left} seconds'
+          actionbar: '<#BA55D3>[전리품 두 배 토템]</#BA55D3> 남은 시간: {time_left}초'
           range: 16
       hologram_action_1:
         type: hologram
         value:
           duration: 20
-          text: '<#BA55D3>[Double Loot Totem]</#BA55D3>'
+          text: '<#BA55D3>[전리품 두 배 토템]</#BA55D3>'
           position: other
           range: 16
           use-text-display: true
@@ -56,7 +56,7 @@ double_loot_totem:
         type: hologram
         value:
           duration: 20
-          text: 'Time Left: {time_left} seconds'
+          text: '남은 시간: {time_left}초'
           position: other
           range: 16
           use-text-display: true
@@ -72,7 +72,7 @@ double_loot_totem:
         type: message-nearby
         value:
           message:
-            - '<#BA55D3>[Totem]</#BA55D3> <#F5FFFA>{player}</#F5FFFA> <#F5F5F5>activated a totem nearby!</#F5F5F5>'
+            - '<#BA55D3>[토템]</#BA55D3> <#F5FFFA>{player}</#F5FFFA><#F5F5F5>님이 근처에서 토템을 활성화했습니다!</#F5F5F5>'
           range: 32
   particles:
     particle_01:
@@ -263,19 +263,19 @@ golden_star_totem:
         action_1:
           type: message
           value:
-            - '<#BA55D3>[TotemActivation]</#BA55D3> <#F5FFFA>Hold a gold ingot in main hand to activate the totem.'
+            - '<#BA55D3>[토템 활성화]</#BA55D3> <#F5FFFA>토템을 활성화하려면 주 손에 금괴를 드세요.'
   events:
     timer:
       actionbar_action:
         type: actionbar-nearby
         value:
-          actionbar: '<#FFFF00>[Golden Star Totem]</#FFFF00> Time Left: {time_left} seconds'
+          actionbar: '<#FFFF00>[금별 토템]</#FFFF00> 남은 시간: {time_left}초'
           range: 16
       hologram_action_1:
         type: hologram
         value:
           duration: 20
-          text: '<#FFFF00>[Golden Star Totem]</#FFFF00>'
+          text: '<#FFFF00>[금별 토템]</#FFFF00>'
           position: other
           range: 16
           use-text-display: true
@@ -287,7 +287,7 @@ golden_star_totem:
         type: hologram
         value:
           duration: 20
-          text: 'Time Left: {time_left} seconds'
+          text: '남은 시간: {time_left}초'
           position: other
           use-text-display: true
           range: 16

@@ -1,19 +1,7 @@
 NexoInventory:
-  type: FILE
+  type: DIRECTORY
   style_default_names: true
-  layout:
-    nexo_armor:
-      slot: 1
-      icon: forest_helmet
-      itemname: <green>Nexo Armor</green>
-    nexo_furniture:
-      slot: 2
-      icon: arm_chair
-      itemname: <green>Nexo Furniture</green>
-    nexo_tools:
-      slot: 3
-      icon: forest_axe
-      itemname: <green>Nexo Tools</green>
+  layout: {}
   menu_rows: 6
   menu_size: 45
   menu_title: <shift:-37><glyph:menu_items_search>

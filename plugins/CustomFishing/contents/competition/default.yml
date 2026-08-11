@@ -34,16 +34,16 @@ weekend_competition:
     broadcast:
       type: broadcast
       value:
-        - 'The number of players is not enough for the fishing competition to be started as scheduled.'
+        - '냚시 대회를 예정대로 시작하기에 플레이어 수가 부족합니다.'
 
   bossbar:
     enable: true
     color: WHITE
     overlay: PROGRESS
     text:
-      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>Time Left: <#E6E6FA>{seconds}s <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>Your Rank: <#E6E6FA>{rank} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>No.1 Player: <#E6E6FA>{1_player}'
-      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>Time Left: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>Your Score: <#E6E6FA>{score_formatted} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>No.1 Score: <#E6E6FA>{1_score}'
-      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>Time Left: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>Winning condition: <#E6E6FA>{goal}'
+      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>남은 시간: <#E6E6FA>{seconds}s <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>내 순위: <#E6E6FA>{rank} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>1위 플레이어: <#E6E6FA>{1_player}'
+      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>남은 시간: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>내 점수: <#E6E6FA>{score_formatted} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>1위 점수: <#E6E6FA>{1_score}'
+      - '<gray>[<#87CEFA>🎣<gray>] <gradient:#F0F8FF:#87CEFA:#F0F8FF>남은 시간: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>승리 조건: <#E6E6FA>{goal}'
     refresh-rate: 20 # in ticks
     switch-interval: 200 # in ticks
     only-show-to-participants: true
@@ -51,9 +51,9 @@ weekend_competition:
   actionbar:
     enable: false
     text:
-      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>Time Left: <#E6E6FA>{seconds}s <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>Your Rank: <#E6E6FA>{rank} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>No.1 Player: <#E6E6FA>{1_player}'
-      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>Time Left: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>Your Score: <#E6E6FA>{score_formatted} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>No.1 Score: <#E6E6FA>{1_score}'
-      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>Time Left: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>Winning condition: <#E6E6FA>{goal}'
+      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>남은 시간: <#E6E6FA>{seconds}s <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>내 순위: <#E6E6FA>{rank} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>1위 플레이어: <#E6E6FA>{1_player}'
+      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>남은 시간: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>내 점수: <#E6E6FA>{score_formatted} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>1위 점수: <#E6E6FA>{1_score}'
+      - '<gradient:#F0F8FF:#87CEFA:#F0F8FF>남은 시간: <#E6E6FA>{minute}{second} <gray>| <gradient:#F0F8FF:#87CEFA:#F0F8FF>승리 조건: <#E6E6FA>{goal}'
     refresh-rate: 5 # in ticks
     switch-interval: 200 # in ticks
     only-show-to-participants: true
@@ -64,9 +64,9 @@ weekend_competition:
     text:
       - '<#D4F2E7>◤─────────────────────────◥'
       - ''
-      - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>Fishing Competition'
+      - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>냚시 대회'
       - ''
-      - '     <#E1FFFF>Current Ranking:</#E1FFFF>'
+      - '     <#E1FFFF>현재 순위:</#E1FFFF>'
       - '              <#E1FFFF>No.①: {1_player} - {1_score}'
       - '              <#E1FFFF>No.②: {2_player} - {2_score}'
       - '              <#E1FFFF>No.③: {3_player} - {3_score}'
@@ -80,11 +80,11 @@ weekend_competition:
       value:
         - '<#D4F2E7>◤─────────────────────────◥'
         - ''
-        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>Fishing Competition'
+        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>냚시 대회'
         - ''
-        - '      <#E1FFFF>Objectives:'
+        - '      <#E1FFFF>목표:'
         - '         <#B0C4DE>{goal}'
-        - '           <#B0C4DE>Start fishing to participate!'
+        - '           <#B0C4DE>냚시를 시작해 참가하세요!'
         - ''
         - '<#D4F2E7>◣─────────────────────────◢'
   end-actions:
@@ -93,9 +93,9 @@ weekend_competition:
       value:
         - '<#D4F2E7>◤─────────────────────────◥'
         - ''
-        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>Fishing Competition'
+        - '             <gray>[<#87CEFA>🎣<gray>]  <gradient:#F0F8FF:#87CEFA:#F0F8FF>냚시 대회'
         - ''
-        - '      <#E1FFFF>Results:'
+        - '      <#E1FFFF>결과:'
         - '              <gradient:#FFF8DC:#FFD700:#FFF8DC>No.①: {1_player} - {1_score}'
         - '              <gradient:#F5FFFA:#F5F5F5:#F5FFFA>No.②: {2_player} - {2_score}'
         - '              <gradient:#D2B48C:#CD853F:#D2B48C>No.③: {3_player} - {3_score}'
@@ -105,7 +105,7 @@ weekend_competition:
     message:
       type: message
       value:
-        - 'You have joined the competition. Good luck!'
+        - '대회에 참가했습니다. 행운을 빕니다!'
 
   # Requirements for participating the competition
   participate-requirements: {}
@@ -120,7 +120,7 @@ weekend_competition:
       messages_action:
         type: message
         value:
-          - '<#FF4500>[1st] Congratulations! You got the first prize!'
+          - '<#FF4500>[1위] 축하합니다! 1등 보상을 받았습니다!'
     2:
       command_action:
         type: command
@@ -129,7 +129,7 @@ weekend_competition:
       messages_action:
         type: message
         value:
-          - '<#FF4500>[2nd] Just miss the opportunity, try next time!'
+          - '<#FF4500>[2위] Just miss the opportunity, try next time!'
     3:
       command_action:
         type: command
@@ -138,7 +138,7 @@ weekend_competition:
       messages_action:
         type: message
         value:
-          - '<#FF4500>[3rd] Just miss the opportunity, try next time!'
+          - '<#FF4500>[3위] Just miss the opportunity, try next time!'
     participation:
       command_action:
         type: command

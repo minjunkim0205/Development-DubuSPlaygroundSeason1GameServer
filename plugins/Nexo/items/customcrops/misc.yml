@@ -1,7 +1,7 @@
 dry_pot_1:
   template: block_sound/wood
   # itemname: "<white>种植盆"
-  itemname: "<white>Pot"
+  itemname: "<gradient:#D7CCC8:#8D6E63:#D7CCC8>화분</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/dry_pot_1
@@ -17,7 +17,7 @@ dry_pot_1:
 wet_pot_1:
   template: block_sound/wood
   # itemname: "<white>种植盆（湿润）"
-  itemname: "<white>Wet Pot"
+  itemname: "<gradient:#D7CCC8:#38BDF8:#D7CCC8>젖은 화분</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/wet_pot_1
@@ -35,7 +35,7 @@ wet_pot_1:
 dry_pot_2:          
   template: block_sound/wood
   # itemname: "<white>远古盆"
-  itemname: "<white>Nether Pot"
+  itemname: "<gradient:#FFCCBC:#8B0000:#FFCCBC>네더 화분</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/dry_pot_2
@@ -51,7 +51,7 @@ dry_pot_2:
 wet_pot_2:
   template: block_sound/wood
   # itemname: "<white>远古盆（充能）"
-  itemname: "<white>Charge Nether Pot"
+  itemname: "<gradient:#FFCCBC:#FF6D00:#FFD700>충전된 네더 화분</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/wet_pot_2
@@ -69,7 +69,7 @@ wet_pot_2:
 dry_pot_3:          
   template: block_sound/wood
   # itemname: "<white>终末盆"
-  itemname: "<white>End Pot"
+  itemname: "<gradient:#E9D5FF:#4C1D95:#E9D5FF>엔드 화분</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/dry_pot_3
@@ -85,7 +85,7 @@ dry_pot_3:
 wet_pot_3:
   template: block_sound/wood
   # itemname: "<white>终末盆（充能）"
-  itemname: "<white>Charge End Pot"
+  itemname: "<gradient:#E9D5FF:#7C3AED:#67E8F9>충전된 엔드 화분</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/wet_pot_3
@@ -103,20 +103,20 @@ wet_pot_3:
 
 crow_fly:
   # itemname: "<white>乌鸦（飞行）"
-  itemname: "<white>Corw Fly"
+  itemname: "<gradient:#CBD5E1:#334155:#CBD5E1>날아가는 까마귀</gradient>"
   material: PAPER
   Pack:
     model: customcrops:item/misc/crow_fly
 crow_stand:
   # itemname: "<white>乌鸦（站立）"
-  itemname: "<white>Crow Stand"
+  itemname: "<gradient:#CBD5E1:#334155:#CBD5E1>서 있는 까마귀</gradient>"
   material: PAPER
   Pack:
     model: customcrops:item/misc/crow_stand
 
 scarecrow:
   # itemname: "<white>稻草人"
-  itemname: "<white>Scarecrow"
+  itemname: "<gradient:#FDE68A:#A16207:#FDE68A>허수아비</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/misc/scarecrow
@@ -135,7 +135,7 @@ scarecrow:
 
 soil_surveyor:
   # itemname: "<white>土壤检测仪"
-  itemname: "<white>Soil Surveyor"
+  itemname: "<gradient:#E0F2FE:#0284C7:#E0F2FE>토양 조사기</gradient>"
   material: PAPER
   Pack:
     texture: customcrops:item/misc/soil_surveyor
@@ -143,7 +143,7 @@ soil_surveyor:
 greenhouse_glass:
   template: block_sound/glass
   # itemname: "<white>温室玻璃"
-  itemname: "<white>Greenhouse Glass"
+  itemname: "<gradient:#ECFEFF:#22D3EE:#ECFEFF>온실 유리</gradient>"
   material: PAPER
   Pack:
     parent_model: block/cube_all
@@ -162,7 +162,7 @@ greenhouse_glass:
 
 water_effect:
   # itemname: "<white>洒水效果"
-  itemname: "<white>Water Effect"
+  itemname: "<gradient:#E0F2FE:#38BDF8:#E0F2FE>물 효과</gradient>"
   material: PAPER
   Pack:
     model: customcrops:item/sprinkler/water_effect
@@ -170,7 +170,7 @@ water_effect:
 crop_stage_death:
   template: block_sound/crop
   # itemname: "<white>枯萎作物"
-  itemname: "<white>Wither"
+  itemname: "<gradient:#D6D3D1:#57534E:#D6D3D1>시든 작물</gradient>"
   material: PAPER
   Pack:
     model: customcrops:block/crop/dead_crop

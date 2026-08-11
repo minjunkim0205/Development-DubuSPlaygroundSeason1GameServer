@@ -1,13 +1,13 @@
 redpacket_seeds:
   # itemname: "<white>摇钱树种子"
-  itemname: "<white>Redpacket Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>복주머니 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/redpacket/redpacket_seeds
 
 redpacket:
   # itemname: "<white>红包"
-  itemname: "<white>Redpacket"
+  itemname: "<gradient:#FFD700:#E11D48:#FFD700>복주머니</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/redpacket/redpacket
@@ -22,7 +22,7 @@ redpacket:
 redpacket_stage_1:
   template: block_sound/crop
   # itemname: "<white>摇钱树生长阶段 I"
-  itemname: "<white>Redpacket Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>복주머니 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/redpacket/stage_1
@@ -38,7 +38,7 @@ redpacket_stage_1:
 redpacket_stage_2:
   template: block_sound/crop
   # itemname: "<white>摇钱树生长阶段 II"
-  itemname: "<white>Redpacket Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>복주머니 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/redpacket/stage_2
@@ -54,7 +54,7 @@ redpacket_stage_2:
 redpacket_stage_3:
   template: block_sound/crop
   # itemname: "<white>摇钱树生长阶段 III"
-  itemname: "<white>Redpacket Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>복주머니 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/redpacket/stage_3
@@ -70,7 +70,7 @@ redpacket_stage_3:
 redpacket_stage_4:
   template: block_sound/crop
   # itemname: "<white>摇钱树生长阶段 IV"
-  itemname: "<white>Redpacket Stage IV"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>복주머니 성장 단계 IV</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/redpacket/stage_4
@@ -86,7 +86,7 @@ redpacket_stage_4:
 redpacket_stage_5:
   template: block_sound/crop
   # itemname: "<white>摇钱树生长阶段 V"
-  itemname: "<white>Redpacket Stage V"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>복주머니 성장 단계 V</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/redpacket/stage_5
@@ -102,7 +102,7 @@ redpacket_stage_5:
 redpacket_stage_6:
   template: block_sound/crop
   # itemname: "<white>摇钱树生长阶段 VI"
-  itemname: "<white>Redpacket Stage VI"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>복주머니 성장 단계 VI</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/redpacket/stage_6

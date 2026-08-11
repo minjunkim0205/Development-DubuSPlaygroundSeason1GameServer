@@ -1,27 +1,27 @@
 sweet_potato_seeds:
   # itemname: "<white>红薯种子"
-  itemname: "<white>Sweet Potato Seeds"
+  itemname: "<gradient:#EFFFF1:#7ED957:#EFFFF1>고구마 씨앗</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/sweet_potato/sweet_potato_seeds
 
 sweet_potato:
   # itemname: "<white>红薯"
-  itemname: "<white>Sweet Potato"
+  itemname: "<gradient:#F4A261:#8B5E34:#F4A261>고구마</gradient>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/sweet_potato/sweet_potato
 
 sweet_potato_silver_star:
   # itemname: "<white>红薯（银星）"
-  itemname: "<white>Sweet Potato (Silver Star)"
+  itemname: "<gradient:#F4A261:#8B5E34:#F4A261>고구마</gradient> <#F5F5F5>(은별)</#F5F5F5>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/sweet_potato/sweet_potato_silver_star
 
 sweet_potato_golden_star:
   # itemname: "<white>红薯（金星）"
-  itemname: "<white>Sweet Potato (Golden Star)"
+  itemname: "<gradient:#F4A261:#8B5E34:#F4A261>고구마</gradient> <#FFD700>(금별)</#FFD700>"
   material: SUGAR
   Pack:
     texture: customcrops:item/crop/sweet_potato/sweet_potato_golden_star
@@ -29,7 +29,7 @@ sweet_potato_golden_star:
 sweet_potato_stage_1:
   template: block_sound/crop
   # itemname: "<white>红薯生长阶段 I"
-  itemname: "<white>Sweet Potato Stage I"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고구마 성장 단계 I</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/sweet_potato/stage_1
@@ -45,7 +45,7 @@ sweet_potato_stage_1:
 sweet_potato_stage_2:
   template: block_sound/crop
   # itemname: "<white>红薯生长阶段 II"
-  itemname: "<white>Sweet Potato Stage II"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고구마 성장 단계 II</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/sweet_potato/stage_2
@@ -61,7 +61,7 @@ sweet_potato_stage_2:
 sweet_potato_stage_3:
   template: block_sound/crop
   # itemname: "<white>红薯生长阶段 III"
-  itemname: "<white>Sweet Potato Stage III"
+  itemname: "<gradient:#EAF7DF:#6FA96B:#EAF7DF>고구마 성장 단계 III</gradient>"
   material: SUGAR
   Pack:
     model: customcrops:block/crop/sweet_potato/stage_3
@@ -72,4 +72,4 @@ sweet_potato_stage_3:
       model: customcrops:block/crop/sweet_potato/stage_3
       hardness: 0
       drop:
-        silktouch: false  
+        silktouch: false

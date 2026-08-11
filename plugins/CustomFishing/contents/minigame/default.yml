@@ -11,7 +11,7 @@
 ######################################
 rainbow_1:
   game-type: accurate_click
-  title: '<#fd4036>RED!'
+  title: '<#fd4036>빨강!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
@@ -32,7 +32,7 @@ rainbow_1:
     7: 0
 rainbow_2:
   game-type: accurate_click
-  title: '<#ffa449>ORANGE!'
+  title: '<#ffa449>주황!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
@@ -53,7 +53,7 @@ rainbow_2:
     7: 0
 rainbow_3:
   game-type: accurate_click
-  title: '<#ffca4c>YELLOW!'
+  title: '<#ffca4c>노랑!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
@@ -74,7 +74,7 @@ rainbow_3:
     7: 0
 rainbow_4:
   game-type: accurate_click
-  title: '<#34f250>GREEN!'
+  title: '<#34f250>초록!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
@@ -95,7 +95,7 @@ rainbow_4:
     7: 0
 rainbow_5:
   game-type: accurate_click
-  title: '<#34f2d5>AQUA!'
+  title: '<#34f2d5>청록!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
@@ -116,7 +116,7 @@ rainbow_5:
     7: 0
 rainbow_6:
   game-type: accurate_click
-  title: '<#5284da>BLUE!'
+  title: '<#5284da>파랑!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
@@ -137,7 +137,7 @@ rainbow_6:
     7: 0
 rainbow_7:
   game-type: accurate_click
-  title: '<#c96cff>PURPLE!'
+  title: '<#c96cff>보라!'
   subtitle:
     font: 'customfishing:default'
     bar: '뀋'
