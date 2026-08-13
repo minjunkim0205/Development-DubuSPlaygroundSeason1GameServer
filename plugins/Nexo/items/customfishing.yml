@@ -12,6 +12,19 @@ rainbow_fish:
   Pack:
     model: customfishing:item/fish/rainbow_fish
     custom_model_data: 50100
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          nausea:
+            duration: 10
+            amplifier: 0
 radioactive_fish:
   material: COD
   displayname: <#00BFFF>방사능 물고기</#00BFFF>
@@ -19,6 +32,22 @@ radioactive_fish:
   Pack:
     model: customfishing:item/fish/radioactive_fish
     custom_model_data: 50000
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
+          nausea:
+            duration: 15
+            amplifier: 0
 tuna_fish:
   material: COD
   displayname: <gradient:#F0FFFF:#4682B4:#F0FFFF>참치</gradient>
@@ -320,6 +349,19 @@ blue_jellyfish:
   Pack:
     model: customfishing:item/fish/blue_jellyfish
     custom_model_data: 50043
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
 blue_jellyfish_silver_star:
   material: COD
   displayname: <#87CEFA>해파리</#87CEFA> <#F5F5F5>(은별)</#F5F5F5>
@@ -327,6 +369,19 @@ blue_jellyfish_silver_star:
   Pack:
     model: customfishing:item/fish/blue_jellyfish_silver_star
     custom_model_data: 50044
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
 blue_jellyfish_golden_star:
   material: COD
   displayname: <#87CEFA>해파리</#87CEFA> <#FFD700>(금별)</#FFD700>
@@ -334,6 +389,19 @@ blue_jellyfish_golden_star:
   Pack:
     model: customfishing:item/fish/blue_jellyfish_golden_star
     custom_model_data: 50045
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
 pink_jellyfish:
   material: COD
   displayname: <#FFC0CB>해파리</#FFC0CB>
@@ -341,6 +409,19 @@ pink_jellyfish:
   Pack:
     model: customfishing:item/fish/pink_jellyfish
     custom_model_data: 50046
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
 pink_jellyfish_silver_star:
   material: COD
   displayname: <#FFC0CB>해파리</#FFC0CB> <#F5F5F5>(은별)</#F5F5F5>
@@ -348,6 +429,19 @@ pink_jellyfish_silver_star:
   Pack:
     model: customfishing:item/fish/pink_jellyfish_silver_star
     custom_model_data: 50047
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
 pink_jellyfish_golden_star:
   material: COD
   displayname: <#FFC0CB>해파리</#FFC0CB> <#FFD700>(금별)</#FFD700>
@@ -355,6 +449,19 @@ pink_jellyfish_golden_star:
   Pack:
     model: customfishing:item/fish/pink_jellyfish_golden_star
     custom_model_data: 50048
+  Components:
+    food:
+      nutrition: 2
+      saturation: 0.4
+      can_always_eat: false
+    consumable:
+      consume_duration: 1.6s
+      animation: eat
+      effects:
+        APPLY_EFFECTS:
+          poison:
+            duration: 10
+            amplifier: 0
 # ###########
 #   Rod    #
 # ###########
