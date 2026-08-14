@@ -454,9 +454,7 @@ other-settings:
   block-detection-order:
   - "vanilla"
   # Custom durability display format
-  custom-durability-format:
-  - ""
-  - "<gray>내구도</gray><white>: {dur} <gray>/</gray> {max}</white>"
+  custom-durability-format: []
   # Offset characters
   # Do not edit unless you know what you are doing
   offset-characters:
